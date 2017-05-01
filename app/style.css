@@ -29,10 +29,10 @@ body {
     
 }
 
-main {
+/*main {
     display: flex;
     flex-direction: column;
-}
+}*/
 
 .flex{
     display: flex;
