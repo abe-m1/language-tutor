@@ -716,6 +716,8 @@ aside {
 	justify-content: space-around;
 	/*margin-top: -1em;*/
     margin-bottom: 2em;
+    max-width: 1215px;
+    margin: 0 auto;
     
 }
 
