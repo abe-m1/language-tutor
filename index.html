@@ -1,483 +1,343 @@
-<html lang="en">
+<html>
     <head>
-        <title>TRULO | True local | Travel like a true local</title>
-        <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-        <meta name="description" content="Don't be a tourist be a trulo. Uncover the hidden gems, not the tourist traps. Get access to insiders generated from your friends and mutual friends.">
-        <meta name="keywords" content="traveling hidden gems, avoid tourist traps, local travel recommendations, local travel tips, lean on your trulos, access local living, trulo life, insider recommendations, local gems">
-        <!-- Google Tag Manager -->
-        <script id="facebook-jssdk" src="//connect.facebook.net/en_US/all.js"></script>
-        <script type="text/javascript" async="" src="//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js"></script>
-        <script type="text/javascript" async="" src="https://ssl.google-analytics.com/ga.js"></script>
-        <script async="" src="https://www.googletagmanager.com/gtm.js?id=GTM-TRC97M"></script>
-        <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-        })(window,document,'script','dataLayer','GTM-TRC97M');</script>
-        <!-- End Google Tag Manager -->
-        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/es6-shim/0.35.2/es6-shim.min.js" integrity="sha256-qHj85CN48C1Z/Jm/4ZxY41Kqxi2C8uNTtoOKYv80esk=" crossorigin="anonymous"></script>
-        <link rel="shortcut icon" href="/favicon.ico">
-        <script src="https://maps.googleapis.com/maps/api/js?callback=__googleMapsApiOnLoadCallback&amp;key=AIzaSyAl6paczEgNKcsPu5LCzJGFBKckf41IcEc&amp;libraries=places,geometry,drawing"></script>
-     <script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
-	<script
-  src="https://code.jquery.com/jquery-3.2.1.js"
-  integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
-  crossorigin="anonymous"></script>     
-        <link href="/app.98acfebb71d218e9e625041c5fd14974.css" rel="stylesheet">
-        <script type="text/javascript" charset="utf-8" async="" src="/2.home.981bf38b095c8ce33d93.js"></script>
-        <style type="text/css">.fb_hidden{position:absolute;top:-10000px;z-index:10001}.fb_reposition{overflow:hidden;position:relative}.fb_invisible{display:none}.fb_reset{background:none;border:0;border-spacing:0;color:#000;cursor:auto;direction:ltr;font-family:"lucida grande", tahoma, verdana, arial, sans-serif;font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:normal;line-height:1;margin:0;overflow:visible;padding:0;text-align:left;text-decoration:none;text-indent:0;text-shadow:none;text-transform:none;visibility:visible;white-space:normal;word-spacing:normal}.fb_reset>div{overflow:hidden}.fb_link img{border:none}@keyframes fb_transform{from{opacity:0;transform:scale(.95)}to{opacity:1;transform:scale(1)}}.fb_animate{animation:fb_transform .3s forwards}
-            .fb_dialog{background:rgba(82, 82, 82, .7);position:absolute;top:-10000px;z-index:10001}.fb_reset .fb_dialog_legacy{overflow:visible}.fb_dialog_advanced{padding:10px;-moz-border-radius:8px;-webkit-border-radius:8px;border-radius:8px}.fb_dialog_content{background:#fff;color:#333}.fb_dialog_close_icon{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 0 transparent;cursor:pointer;display:block;height:15px;position:absolute;right:18px;top:17px;width:15px}.fb_dialog_mobile .fb_dialog_close_icon{top:5px;left:5px;right:auto}.fb_dialog_padding{background-color:transparent;position:absolute;width:1px;z-index:-1}.fb_dialog_close_icon:hover{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 -15px transparent}.fb_dialog_close_icon:active{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 -30px transparent}.fb_dialog_loader{background-color:#f6f7f9;border:1px solid #606060;font-size:24px;padding:20px}.fb_dialog_top_left,.fb_dialog_top_right,.fb_dialog_bottom_left,.fb_dialog_bottom_right{height:10px;width:10px;overflow:hidden;position:absolute}.fb_dialog_top_left{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/ye/r/8YeTNIlTZjm.png) no-repeat 0 0;left:-10px;top:-10px}.fb_dialog_top_right{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/ye/r/8YeTNIlTZjm.png) no-repeat 0 -10px;right:-10px;top:-10px}.fb_dialog_bottom_left{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/ye/r/8YeTNIlTZjm.png) no-repeat 0 -20px;bottom:-10px;left:-10px}.fb_dialog_bottom_right{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/ye/r/8YeTNIlTZjm.png) no-repeat 0 -30px;right:-10px;bottom:-10px}.fb_dialog_vert_left,.fb_dialog_vert_right,.fb_dialog_horiz_top,.fb_dialog_horiz_bottom{position:absolute;background:#525252;filter:alpha(opacity=70);opacity:.7}.fb_dialog_vert_left,.fb_dialog_vert_right{width:10px;height:100%}.fb_dialog_vert_left{margin-left:-10px}.fb_dialog_vert_right{right:0;margin-right:-10px}.fb_dialog_horiz_top,.fb_dialog_horiz_bottom{width:100%;height:10px}.fb_dialog_horiz_top{margin-top:-10px}.fb_dialog_horiz_bottom{bottom:0;margin-bottom:-10px}.fb_dialog_iframe{line-height:0}.fb_dialog_content .dialog_title{background:#6d84b4;border:1px solid #365899;color:#fff;font-size:14px;font-weight:bold;margin:0}.fb_dialog_content .dialog_title>span{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/yd/r/Cou7n-nqK52.gif) no-repeat 5px 50%;float:left;padding:5px 0 7px 26px}body.fb_hidden{-webkit-transform:none;height:100%;margin:0;overflow:visible;position:absolute;top:-10000px;left:0;width:100%}.fb_dialog.fb_dialog_mobile.loading{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/ya/r/3rhSv5V8j3o.gif) white no-repeat 50% 50%;min-height:100%;min-width:100%;overflow:hidden;position:absolute;top:0;z-index:10001}.fb_dialog.fb_dialog_mobile.loading.centered{width:auto;height:auto;min-height:initial;min-width:initial;background:none}.fb_dialog.fb_dialog_mobile.loading.centered #fb_dialog_loader_spinner{width:100%}.fb_dialog.fb_dialog_mobile.loading.centered .fb_dialog_content{background:none}.loading.centered #fb_dialog_loader_close{color:#fff;display:block;padding-top:20px;clear:both;font-size:18px}#fb-root #fb_dialog_ipad_overlay{background:rgba(0, 0, 0, .45);position:absolute;bottom:0;left:0;right:0;top:0;width:100%;min-height:100%;z-index:10000}#fb-root #fb_dialog_ipad_overlay.hidden{display:none}.fb_dialog.fb_dialog_mobile.loading iframe{visibility:hidden}.fb_dialog_content .dialog_header{-webkit-box-shadow:white 0 1px 1px -1px inset;background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#738ABA), to(#2C4987));border-bottom:1px solid;border-color:#1d4088;color:#fff;font:14px Helvetica, sans-serif;font-weight:bold;text-overflow:ellipsis;text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0;vertical-align:middle;white-space:nowrap}.fb_dialog_content .dialog_header table{-webkit-font-smoothing:subpixel-antialiased;height:43px;width:100%}.fb_dialog_content .dialog_header td.header_left{font-size:12px;padding-left:5px;vertical-align:middle;width:60px}.fb_dialog_content .dialog_header td.header_right{font-size:12px;padding-right:5px;vertical-align:middle;width:60px}.fb_dialog_content .touchable_button{background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#4966A6), color-stop(.5, #355492), to(#2A4887));border:1px solid #29487d;-webkit-background-clip:padding-box;-webkit-border-radius:3px;-webkit-box-shadow:rgba(0, 0, 0, .117188) 0 1px 1px inset, rgba(255, 255, 255, .167969) 0 1px 0;display:inline-block;margin-top:3px;max-width:85px;line-height:18px;padding:4px 12px;position:relative}.fb_dialog_content .dialog_header .touchable_button input{border:none;background:none;color:#fff;font:12px Helvetica, sans-serif;font-weight:bold;margin:2px -12px;padding:2px 6px 3px 6px;text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0}.fb_dialog_content .dialog_header .header_center{color:#fff;font-size:16px;font-weight:bold;line-height:18px;text-align:center;vertical-align:middle}.fb_dialog_content .dialog_content{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/y9/r/jKEcVPZFk-2.gif) no-repeat 50% 50%;border:1px solid #555;border-bottom:0;border-top:0;height:150px}.fb_dialog_content .dialog_footer{background:#f6f7f9;border:1px solid #555;border-top-color:#ccc;height:40px}#fb_dialog_loader_close{float:left}.fb_dialog.fb_dialog_mobile .fb_dialog_close_button{text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0}.fb_dialog.fb_dialog_mobile .fb_dialog_close_icon{visibility:hidden}#fb_dialog_loader_spinner{animation:rotateSpinner 1.2s linear infinite;background-color:transparent;background-image:url(https://static.xx.fbcdn.net/rsrc.php/v3/yD/r/t-wz8gw1xG1.png);background-repeat:no-repeat;background-position:50% 50%;height:24px;width:24px}@keyframes rotateSpinner{0%{transform:rotate(0deg)}100%{transform:rotate(360deg)}}
-            .fb_iframe_widget{display:inline-block;position:relative}.fb_iframe_widget span{display:inline-block;position:relative;text-align:justify}.fb_iframe_widget iframe{position:absolute}.fb_iframe_widget_fluid_desktop,.fb_iframe_widget_fluid_desktop span,.fb_iframe_widget_fluid_desktop iframe{max-width:100%}.fb_iframe_widget_fluid_desktop iframe{min-width:220px;position:relative}.fb_iframe_widget_lift{z-index:1}.fb_hide_iframes iframe{position:relative;left:-10000px}.fb_iframe_widget_loader{position:relative;display:inline-block}.fb_iframe_widget_fluid{display:inline}.fb_iframe_widget_fluid span{width:100%}.fb_iframe_widget_loader iframe{min-height:32px;z-index:2;zoom:1}.fb_iframe_widget_loader .FB_Loader{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/y9/r/jKEcVPZFk-2.gif) no-repeat;height:32px;width:32px;margin-left:-16px;position:absolute;left:50%;z-index:4}</style><script type="text/javascript" charset="UTF-8" src="https://maps.googleapis.com/maps-api-v3/api/js/28/8/common.js"></script><script type="text/javascript" charset="UTF-8" src="https://maps.googleapis.com/maps-api-v3/api/js/28/8/util.js"></script><script type="text/javascript" charset="UTF-8" src="https://maps.googleapis.com/maps-api-v3/api/js/28/8/stats.js">
-            </script>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="http://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
+        <script type="text/javascript" src="http://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
+	    <link rel="stylesheet" href="slick.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    
+    <body>
 
-        </head>
-            <body>
-                <!-- Google Tag Manager (noscript) --><noscript>&lt;iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TRC97M" height="0" width="0" style="display:none;visibility:hidden"&gt;&lt;/iframe&gt;</noscript>
-                <!-- End Google Tag Manager (noscript) -->
-                <div id="root" style="height: 100%">
-                    <div data-reactroot="" style="height: 100%;">
-                        <div class="container text-center">
-                            <div>
-                                <div>
-                                    <div style="position: fixed; width: 100%; background-color: white; z-index: 1002303021;">
-                                        <div style="box-sizing: border-box; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); background-color: rgb(255, 255, 255); height: 80px; padding: 0px 24px; display: flex; justify-content: space-between; max-width: 1060px; min-width: 700px; margin: 0px auto;">
-                                            <div style="position: relative; display: flex; justify-content: space-between; align-items: center;">
-                                                <a href="/">
-                                                    <img src="data:image/png;base64,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" style="width: 68px; height: 35px; margin: -10px 0px 0px;">
-                                                </a>
-                                            </div>
-                                            <div style="position: relative; display: flex; justify-content: space-between; align-items: center;">
-                                                <a href="#welcome" tabindex="0" style="border: 10px; box-sizing: border-box; display: inline-block; font-family: Roboto, sans-serif; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); cursor: pointer; text-decoration: none; margin: 22px 0px; padding: 0px; outline: none; font-size: inherit; font-weight: inherit; position: relative; height: 36px; line-height: 36px; min-width: 88px; color: rgb(71, 204, 176); transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; border-radius: 2px; user-select: none; overflow: hidden; background-color: rgba(0, 0, 0, 0); text-align: center;"><div><span style="position: relative; padding-left: 16px; padding-right: 16px; vertical-align: middle; letter-spacing: 0px; text-transform: none; font-weight: 400; font-size: 17px;">Welcome</span></div></a><a href="#about" tabindex="0" style="border: 10px; box-sizing: border-box; display: inline-block; font-family: Roboto, sans-serif; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); cursor: pointer; text-decoration: none; margin: 22px 0px; padding: 0px; outline: none; font-size: inherit; font-weight: inherit; position: relative; height: 36px; line-height: 36px; min-width: 88px; color: rgb(146, 152, 160); transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; border-radius: 2px; user-select: none; overflow: hidden; background-color: rgba(0, 0, 0, 0); text-align: center;">
-                                                    <div>
-                                                        <span style="position: relative; padding-left: 16px; padding-right: 16px; vertical-align: middle; letter-spacing: 0px; text-transform: none; font-weight: 400; font-size: 17px;">About</span>
-                                                    </div>
-                                                </a>
-                                                <a href="#howitworks" tabindex="0" style="border: 10px; box-sizing: border-box; display: inline-block; font-family: Roboto, sans-serif; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); cursor: pointer; text-decoration: none; margin: 22px 0px; padding: 0px; outline: none; font-size: inherit; font-weight: inherit; position: relative; height: 36px; line-height: 36px; min-width: 88px; color: rgb(146, 152, 160); transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; border-radius: 2px; user-select: none; overflow: hidden; background-color: rgba(0, 0, 0, 0); text-align: center;">
-                                                    <div>
-                                                        <span style="position: relative; padding-left: 16px; padding-right: 16px; vertical-align: middle; letter-spacing: 0px; text-transform: none; font-weight: 400; font-size: 17px;">How It Works</span>
-                                                    </div>
-                                                </a>
-                                                <a href="#testimonials" tabindex="0" style="border: 10px; box-sizing: border-box; display: inline-block; font-family: Roboto, sans-serif; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); cursor: pointer; text-decoration: none; margin: 22px 0px; padding: 0px; outline: none; font-size: inherit; font-weight: inherit; position: relative; height: 36px; line-height: 36px; min-width: 88px; color: rgb(146, 152, 160); transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; border-radius: 2px; user-select: none; overflow: hidden; background-color: rgba(0, 0, 0, 0); text-align: center;">
-                                                    <div>
-                                                        <span style="position: relative; padding-left: 16px; padding-right: 16px; vertical-align: middle; letter-spacing: 0px; text-transform: none; font-weight: 400; font-size: 17px;">Testimonials</span>
-                                                    </div>
-                                                </a>
-                                                <a href="#contact" tabindex="0" style="border: 10px; box-sizing: border-box; display: inline-block; font-family: Roboto, sans-serif; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); cursor: pointer; text-decoration: none; margin: 22px 0px; padding: 0px; outline: none; font-size: inherit; font-weight: inherit; position: relative; height: 36px; line-height: 36px; min-width: 88px; color: rgb(146, 152, 160); transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; border-radius: 2px; user-select: none; overflow: hidden; background-color: rgba(0, 0, 0, 0); text-align: center;">
-                                                    <div>
-                                                        <span style="position: relative; padding-left: 16px; padding-right: 16px; vertical-align: middle; letter-spacing: 0px; text-transform: none; font-weight: 400; font-size: 17px;">Contact1</span>
-                                                    </div>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    
-                                    <div style="padding: 80px 0px 0px;">
-                                        <div id="welcome" style="background: url(&quot;c79510c7c8c319024b6286da951235d0.jpg&quot;) center center / cover no-repeat; height: 720px;">
-                                            <div class="false">
-                                                <h1 class="false">Travel like a true local</h1>
-                                                <h2 class="false">It's all about who you know</h2>
-                                                <span style="transition: opacity 0.5s;">
-                                                    <button class="facebook-button flat dark login  metro"><!-- react-text: 35 -->Login<!-- /react-text --></button>
-                                                </span>
-                                            <div class="signup" style="color: rgb(146, 152, 160); background-color: rgb(255, 255, 255); transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; box-sizing: border-box; font-family: Roboto, sans-serif; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); box-shadow: rgba(71, 204, 175, 0.4) 0px 7px 15px 0px; border-radius: 23px; display: inline-block; min-width: 88px;">
-                                                <button tabindex="0" type="button" style="border: 10px; box-sizing: border-box; display: inline-block; font-family: Roboto, sans-serif; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); cursor: pointer; text-decoration: none; margin: 0px; padding: 0px; outline: none; font-size: inherit; font-weight: inherit; position: relative; height: 36px; line-height: 36px; width: 100%; border-radius: 23px; transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; background-color: rgb(71, 204, 176); text-align: center;">
-                                                    <div>
-                                                        <div style="height: 36px; border-radius: 23px; transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; top: 0px;">
-                                                            <span style="position: relative; opacity: 1; font-size: 14px; letter-spacing: 0px; text-transform: uppercase; font-weight: 500; margin: 0px; user-select: none; padding-left: 16px; padding-right: 16px; color: rgb(255, 255, 255);">signup</span>
-                                                        </div>
-                                                    </div>
-                                                </button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    
-                                    <div id="about">
-                                        <h1>DON’T BE A TOURIST, BE A TRULO</h1>
-                                        <p class="larger"><!-- react-text: 44 -->Exploring the world is the best. Exploring the world like a <!-- /react-text -->
-                                            <i>true local</i>
-                                            <!-- react-text: 46 --> is even better.<!-- /react-text -->
-                                        </p>
-                                        <p><!-- react-text: 48 -->Get access to insiders generated from your friends and mutual friends to experience a city like the locals do.<!-- /react-text -->
-                                            <br><!-- react-text: 50 -->Lean on your trulos as local tour guides, free accommodation and travel advice. <!-- /react-text -->
-                                        </p>
-                                        <div class="cards">
-                                            <div style="width: 280px; height: 280px; background: url(&quot;19950028790a119a32f0303259bae686.jpg&quot;) center center / cover no-repeat; position: relative; border-radius: 3px; display: inline-block; margin: 10px 0px 0px 10px; box-sizing: border-box;">
-                                                <div class="card">
-                                                    <div class="false">
-                                                        <h5>San Francisco</h5>
-                                                        <h6>26 locals</h6>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            
-                                            <div style="width: 280px; height: 280px; background: url(&quot;/6daf5cfaf04f28883c3864d6e6b8aac2.jpg&quot;) center center / cover no-repeat; position: relative; border-radius: 3px; display: inline-block; margin: 10px 0px 0px 10px; box-sizing: border-box;">
-                                                <div class="card">
-                                                    <div class="false">
-                                                        <h5>Los Angeles</h5>
-                                                        <h6>34 locals</h6>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            
-                                            <div style="width: 280px; height: 280px; background: url(&quot;/3ef8e6b14b77359a52cb1dc4e5774ab7.jpg&quot;) center center / cover no-repeat; position: relative; border-radius: 3px; display: inline-block; margin: 10px 0px 0px 10px; box-sizing: border-box;">
-                                                <div class="card">
-                                                    <div class="false">
-                                                        <h5>New York</h5>
-                                                        <h6>17 locals</h6>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            
-                                            <div style="width: 280px; height: 280px; background: url(&quot;3e555c3bd03a7398d107301d8f0cda42.jpg&quot;) center center / cover no-repeat; position: relative; border-radius: 3px; display: inline-block; margin: 10px 0px 0px 10px; box-sizing: border-box;">
-                                                <div class="card">
-                                                    <div class="false">
-                                                        <h5>Barcelona</h5>
-                                                        <h6>13 locals</h6>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            
-                                            <div style="width: 280px; height: 280px; background: url(&quot;/b0ea87f66569f764437089768a28b813.jpg&quot;) center center / cover no-repeat; position: relative; border-radius: 3px; display: inline-block; margin: 10px 0px 0px 10px; box-sizing: border-box;">
-                                                <div class="card">
-                                                    <div class="false">
-                                                        <h5>Bahamas</h5>
-                                                        <h6>7 locals</h6>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            
-                                            <div style="width: 280px; height: 280px; background: url(&quot;/e26e51db9b0970097060ab7893e0065a.jpg&quot;) center center / cover no-repeat; position: relative; border-radius: 3px; display: inline-block; margin: 10px 0px 0px 10px; box-sizing: border-box;">
-                                                <div class="card">
-                                                    <div class="false">
-                                                        <h5>London</h5>
-                                                        <h6>24 locals</h6>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            
-                                            <div style="width: 280px; height: 280px; background: url(&quot;/f0cc0cb2c609b0d0bdf9581583160e80.jpg&quot;) center center / cover no-repeat; position: relative; border-radius: 3px; display: inline-block; margin: 10px 0px 0px 10px; box-sizing: border-box;">
-                                                <div class="card">
-                                                    <div class="false">
-                                                        <h5>Egypt</h5>
-                                                        <h6>2 locals</h6>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            
-                                            <div style="width: 280px; height: 280px; background: url(&quot;/552bd933eb52a576e9eb2da167a48338.jpg&quot;) center center / cover no-repeat; position: relative; border-radius: 3px; display: inline-block; margin: 10px 0px 0px 10px; box-sizing: border-box;">
-                                                <div class="card">
-                                                    <div class="false">
-                                                        <h5>Paris</h5>
-                                                        <h6>9 locals</h6>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        
-                                        <div style="clear: both; display: block">0</div>
-                                    </div>
-                                    
-                                    <div id="howitworks">
-                                        <h1>HOW IT WORKS</h1>
-                                        <div>
-                                            <div style="width: 375px; height: 375px; background-size: cover; position: relative; border-radius: 3px; display: inline-block; margin: 10px 0px 0px 20px; box-sizing: border-box; box-shadow: rgba(0, 0, 0, 0.0666667) 30px 30px 50px 0px; vertical-align: top; padding: 20px; background-color: white;">
-                                                <div class="card">
-                                                    <img src="data:image/png;base64,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" alt="">
-                                                    <h2>Build your tribe</h2>
-                                                    <p>Trulo pulls from your contacts and their contacts to generate a network of true and trusted locals around the globe. </p>
-                                                </div>
-                                            </div>
-                                            
-                                            <div style="width: 375px; height: 375px; background-size: cover; position: relative; border-radius: 3px; display: inline-block; margin: 10px 0px 0px 20px; box-sizing: border-box; box-shadow: rgba(0, 0, 0, 0.0666667) 30px 30px 50px 0px; vertical-align: top; padding: 20px; background-color: white;">
-                                                <div class="card">
-                                                    <img src="data:image/png;base64,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" alt="">
-                                                    <h2>Pick your city</h2>
-                                                    <p>Wherever you are traveling next, we’ll connect you with trulos in your desired destination who have the local knowledge to help you find your hidden travel gems. </p>
-                                                </div>
-                                            </div>
-                                            
-                                            <div style="width: 375px; height: 375px; background-size: cover; position: relative; border-radius: 3px; display: inline-block; margin: 10px 0px 0px 20px; box-sizing: border-box; box-shadow: rgba(0, 0, 0, 0.0666667) 30px 30px 50px 0px; vertical-align: top; padding: 20px; background-color: white;">
-                                                <div class="card">
-                                                    <img src="/aef5a114e89d9d8f836e523481711a16.png" alt="">
-                                                    <h2>Give a lil' get a lil'</h2>
-                                                    <p>Select what you’re up for: Hosting, grabbing a bite, or being an emergency contact. Upload your best pic of your current city and list favorite spots to dine, drink and play. </p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        
-                                        <h1>TRIBE OF 5</h1>
-                                        <p class="larger">Once invited by a trulo user, build your tribe.</p>
-                                        <p>
-                                            <!-- react-text: 114 -->Invite five like-minded travel friends to keep our network trusted and authentic.<!-- /react-text -->
-                                            <br>
-                                            <!-- react-text: 116 -->Connect with their inner circles and uncover the hidden gems, not the tourist traps.
-                                            <!-- /react-text -->
-                                        </p>
-                                        
-                                        <div class="cards">
-                                            <div style="width: 380px; height: 200px; background: url(&quot;/6618cd8c4f5c48c6e06b29af781d4e6b.jpg&quot;) center center / cover no-repeat; position: relative; border-radius: 3px; display: inline-block; margin: 10px 10px 0px; box-sizing: border-box; flex: 1 1 0%;"></div><div style="width: 380px; height: 200px; background: url(&quot;/1ba38f9a57870e94b8c44f11f0475899.jpg&quot;) center center / cover no-repeat; position: relative; border-radius: 3px; display: inline-block; margin: 10px 10px 0px; box-sizing: border-box; flex: 1 1 0%;">
-                                        </div>
-                                        
-                                        <div style="width: 380px; height: 200px; background: url(&quot;/d3c0bfe4725d84e6c42cbda1af580827.jpg&quot;) center center / cover no-repeat; position: relative; border-radius: 3px; display: inline-block; margin: 10px 10px 0px; box-sizing: border-box; flex: 1 1 0%;">
-                                        </div>
-                                    </div>
-                                        <div style="clear: both;"></div>
-                                    </div>
-
-                                    <div id="testimonials">
-                                        <div class="slick-initialized slick-slider">
-                                            <div class="btn prev ">
-                                                <i class="material-icons">chevron_left</i>
-                                            </div>
-                                            <div class="slick-list">
-                                                <div class="slick-track" style="opacity: 1; transform: translate3d(-4695px, 0px, 0px); width: 9390px;">
-                                                    <div data-index="-1" class="slick-slide" style="width: 1565px;">
-                                                        <div class="card" style="background: url(&quot;https://api.trulotravel.com/files/download/?name=api.TestimonialImage%2Fbytes%2Ffilename%2Fmimetype%2Frene.jpg&quot;) right center no-repeat;">
-                                                            <div class="false">
-                                                                <div class="content">
-                                                                    <div>
-                                                                        <h3>Renee &amp; Brandon</h3>
-                                                                        <h4>COPENHAGEN, DK</h4>
-                                                                        <p>“Sometimes in travels you get really lucky and meet fantastic people who are happy to share with you a little slice of their lives. Because of Trulo, we got to see Copenhagen in a real way that we would not have seen without Lukas. We are so in love with Copenhagen and our dear new friends.”</p>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    
-                                                    <div data-index="0" class="slick-slide" tabindex="-1" style="outline: none; width: 1565px;">
-                                                        <div class="card" style="background: url(&quot;https://api.trulotravel.com/files/download/?name=api.TestimonialImage%2Fbytes%2Ffilename%2Fmimetype%2Fimg5.jpg&quot;) right center no-repeat;">
-                                                            <div class="false">
-                                                                <div class="content">
-                                                                    <div>
-                                                                        <h3>Lyuba</h3>
-                                                                        <h4>BARCELONA, SPAIN</h4>
-                                                                        <p>“Sometimes you get used to your own city that you forget to notice the little things that give it character. Showing Darina around on her visit to Barcelona was like seeing it again for the first time. Plus I got to re-visit all of my favorite places and discover new amazing spots around town.”</p>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    
-                                                    <div data-index="1" class="slick-slide" tabindex="-1" style="outline: none; width: 1565px;">
-                                                        <div class="card" style="background: url(&quot;https://api.trulotravel.com/files/download/?name=api.TestimonialImage%2Fbytes%2Ffilename%2Fmimetype%2Fimg7.jpg&quot;) right center no-repeat;">
-                                                            <div class="false">
-                                                                <div class="content">
-                                                                    <div>
-                                                                        <h3>Nils</h3>
-                                                                        <h4>NEW ORLEANS, USA</h4>
-                                                                        <p>“I was recently on a road trip through Louisiana. When getting to New Orleans I asked a friend through Trulo if she knew of any must-see local hotspots. Since New Orleans is very touristy, I preferred getting ideas on the more local/authentic things to do. Her friend had some great recommendations for bars, restaurants and activities. That's what it is truly about - connecting with friends and mutual friends to experience local culture anywhere in the world.”</p>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    
-                                                    <div data-index="2" class="slick-slide slick-active" tabindex="-1" style="outline: none; width: 1565px;">
-                                                        <div class="card" style="background: url(&quot;https://api.trulotravel.com/files/download/?name=api.TestimonialImage%2Fbytes%2Ffilename%2Fmimetype%2Fimg6.jpg&quot;) right center no-repeat;">
-                                                            <div class="false"><div class="content">
-                                                                <div>
-                                                                    <h3>Hester</h3>
-                                                                    <h4>AMSTERDAM, NETHERLANDS</h4>
-                                                                    <p>“Such an incredible experience! It was great meeting friends of friends and showing them the coolest parts of our beautiful city that most tourists don't get to see!”</p>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
+    <main>
+        <header>
+            <nav class="navbar">
+                <div>
+                    <a href="#" class="toggle"><i class="fa fa-reorder"></i></a>
+                </div>
+                <a href="#" class="brand"><img src="images/logo-reverse-color.png" alt=""></a>
+    
+                <div class="right">
+                    <a href="#" class="link">Welcome</a>
+                    <a  href="#p2" class="link">About</a>
+                    <a href="#" class="link">How It Works</a>
+                    <a href="#" class="link">Testimonials</a>
+                    <a href="#" class="link">Contact</a>
+                </div>
+            </nav>
+        </header>
+    
+        <app>
+            <article style="padding: '0px'">
+                <div >
+                    <div id="welcome">
+                        <div>
+                            <h1>Lorem ipsum dolor sit </h1>
+                            <h2 >consectetur adipiscing elit</h2>
                                                 
-                                                <div data-index="3" class="slick-slide" tabindex="-1" style="outline: none; width: 1565px;">
-                                                    <div class="card" style="background: url(&quot;https://api.trulotravel.com/files/download/?name=api.TestimonialImage%2Fbytes%2Ffilename%2Fmimetype%2Frene.jpg&quot;) right center no-repeat;">
-                                                        <div class="false"><div class="content">
-                                                            <div>
-                                                                <h3>Renee &amp; Brandon</h3>
-                                                                <h4>COPENHAGEN, DK</h4>
-                                                                <p>“Sometimes in travels you get really lucky and meet fantastic people who are happy to share with you a little slice of their lives. Because of Trulo, we got to see Copenhagen in a real way that we would not have seen without Lukas. We are so in love with Copenhagen and our dear new friends.”</p>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            
-                                            <div data-index="4" class="slick-slide" style="width: 1565px;">
-                                            
-                                            <div class="card" style="background: url(&quot;https://api.trulotravel.com/files/download/?name=api.TestimonialImage%2Fbytes%2Ffilename%2Fmimetype%2Fimg5.jpg&quot;) right center no-repeat;">
-                                                <div class="false"><div class="content">
-                                                    <div>
-                                                        <h3>Lyuba</h3>
-                                                        <h4>BARCELONA, SPAIN</h4>
-                                                        <p>“Sometimes you get used to your own city that you forget to notice the little things that give it character. Showing Darina around on her visit to Barcelona was like seeing it again for the first time. Plus I got to re-visit all of my favorite places and discover new amazing spots around town.”</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            
-                            <div class="btn next ">
-                                <i class="material-icons">chevron_right</i>
+                            <div class="signup">
+                                <button type="submit" >Signup</button>
                             </div>
                         </div>
                     </div>
+                </div>
+            
+                <div  class="flex about" id="p2">
                     
-                    <div id="contact" style="background: url(&quot;/9290189b6b59703c3501e8774762fe9f.jpg&quot;) center center / cover no-repeat; height: 800px;">
-                        <div class="false">
-                            <div class="left">
-                                <h1><!-- react-text: 127 -->HAVE A <!-- /react-text -->
-                                    <br><!-- react-text: 129 --> QUESTION?<!-- /react-text -->
+                        <h1>TRECTO IS THE NEXT BIG THING</h1>
+                        <p>do eiusmod tempor incididunt ut labore et dolore 
+                            <br>laboris nisi ut aliquip ex.
+                        </p>
+                        <p >Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.
+                            <br>et quasi architecto beatae vitae dicta sunt explicabo.
+                        </p>
+                        
+                        <section class="cards">
+                            <div class="card">
+                                <a href="#">
+                                    <figure class="thumbnail">
+                                        <div class="thumb-image" style="background: url('images/box1.png') center center / cover no-repeat;">
+                                            <div class="gradient" >
+                                                <div class="thumb-text">
+                                                    <h5>Headline</h5>
+                                                    <h6>Subheadline</h6>
+                                                </div> 
+                                            </div>     
+                                        </div>
+                                    </figure>                       
+                                </a>
+                            </div><!-- .card -->
+
+                            <div class="card">
+                                <a href="#">
+                                    <figure class="thumbnail">
+                                        <div class="thumb-image" style="background: url('images/box2.png') center center / cover no-repeat;">
+                                            <div class="gradient" >
+                                                <div class="thumb-text">
+                                                    <h5>Headline</h5>
+                                                    <h6>Subheadline</h6>
+                                                </div> 
+                                            </div>     
+                                        </div>
+                                    </figure>                       
+                                </a>
+                            </div><!-- .card -->
+
+                            <div class="card">
+                                <a href="#">
+                                    <figure class="thumbnail">
+                                        <div class="thumb-image" style="background: url('images/box8.png') center center / cover no-repeat;">
+                                            <div class="gradient" >
+                                                <div class="thumb-text">
+                                                    <h5>Headline</h5>
+                                                    <h6>Subheadline</h6>
+                                                </div> 
+                                            </div>     
+                                        </div>
+                                    </figure>                       
+                                </a>
+                            </div><!-- .card -->
+
+                            <div class="card">
+                                <a href="#">
+                                    <figure class="thumbnail">
+                                        <div class="thumb-image" style="background: url('images/box4.png') center center / cover no-repeat;">
+                                            <div class="gradient" >
+                                                <div class="thumb-text">
+                                                    <h5>Headline</h5>
+                                                    <h6>Subheadline</h6>
+                                                </div> 
+                                            </div>     
+                                        </div>
+                                    </figure>                       
+                                </a>
+                            </div><!-- .card -->
+
+                            <div class="card">
+                                <a href="#">
+                                    <figure class="thumbnail">
+                                        <div class="thumb-image" style="background: url('images/box5.png') center center / cover no-repeat;">
+                                            <div class="gradient" >
+                                                <div class="thumb-text">
+                                                    <h5>Headline</h5>
+                                                    <h6>Subheadline</h6>
+                                                </div> 
+                                            </div>     
+                                        </div>
+                                    </figure>                       
+                                </a>
+                            </div><!-- .card -->
+
+                            <div class="card">
+                                <a href="#">
+                                    <figure class="thumbnail">
+                                        <div class="thumb-image" style="background: url('images/box6.png') center center / cover no-repeat;">
+                                            <div class="gradient" >
+                                                <div class="thumb-text">
+                                                    <h5>Headline</h5>
+                                                    <h6>Subheadline</h6>
+                                                </div> 
+                                            </div>     
+                                        </div>
+                                    </figure>                       
+                                </a>
+                            </div><!-- .card -->
+                            
+                            <div class="card">
+                                <a href="#">
+                                    <figure class="thumbnail">
+                                        <div class="thumb-image" style="background: url('images/box7.png') center center / cover no-repeat;">
+                                            <div class="gradient" >
+                                                <div class="thumb-text">
+                                                    <h5>Headline</h5>
+                                                    <h6>Subheadline</h6>
+                                                </div> 
+                                            </div>     
+                                        </div>
+                                    </figure>                       
+                                </a>
+                            </div><!-- .card -->
+
+                            <div class="card">
+                                <a href="#">
+                                    <figure class="thumbnail">
+                                        <div class="thumb-image" style="background: url('images/box8.png') center center / cover no-repeat;">
+                                            <div class="gradient" >
+                                                <div class="thumb-text">
+                                                    <h5>Headline</h5>
+                                                    <h6>Subheadline</h6>
+                                                </div> 
+                                            </div>     
+                                        </div>
+                                    </figure>                       
+                                </a>
+                            </div><!-- .card -->
+                    
+                </div>
+
+                <div class="flex works">
+                    <h1 style="font-size: 48px; text-align: center; color: #F9564F">HOW IT WORKS</h1>
+                        <section class="cards">
+                            <article class="card2">
+                                <a href="#">
+                                    <figure class="thumbnail-contact">
+                                        <!--<img src="images/contact.png">-->
+                                    </figure>
+                                    <div class="card-content">
+                                        <h2>Lorem ipsum dolor sit</h2>
+                                        <p>consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate.</p>
+                                        
+                                    </div><!-- .card-content -->
+                                </a>
+                            </article><!-- .card -->
+
+                            <article class="card2">
+                                <a href="#">
+                                    <figure class="thumbnail-light">
+                                        <!--<img  src="images/light-bulb-10.png">-->
+                                    </figure>
+                                    <div class="card-content">
+                                        <h2>Lorem ipsum dolor sit</h2>
+                                        <p>consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate.</p>
+                                        
+                                    </div><!-- .card-content -->
+                                </a>
+                            </article><!-- .card -->
+
+                            <article class="card2">
+                                <a href="#">
+                                    <figure class="thumbnail-phone" >
+                                        <!--<img src="images/phone.png" >-->
+                                    </figure>
+                                    <div class="card-content">
+                                        <h2>Lorem ipsum dolor sit</h2>
+                                        <p>consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate.</p>
+                                        
+                                    </div><!-- .card-content -->
+                                </a>
+                            </article><!-- .card -->
+                        </section>                    
+                </div>
+
+                <div>
+                    <div class="slider">
+                        
+                        <div class="slide-container">
+                            <img src="images/parker-byrd-139348.png" />
+                            <div class="slide-caption">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris</div>
+                        </div>
+                            
+                        <div class="slide-container">
+                            <img src="images/ana-bernardo-185037.png" />
+                            <div class="slide-caption-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris</div>
+                        </div>
+  
+                        <div class="slide-container">
+                            <img src="images/luca-bravo-207676.png" />
+                            <div class="slide-caption">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris</div>
+                        </div>
+  
+                        <div class="slide-container">
+                            <img src="images/ryan-riggins-213451.png" />
+                            <div class="slide-caption-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris</div>
+                        </div>
+                    </div>
+
+
+
+                    <div id="contact">
+                        <div class="contact-divider">
+                            <div class="questions">
+                                <h1>HAVE A
+                                    <br> QUESTION?
                                 </h1>
                             </div>
                             
-                            <div class="right">
-                                <div style="font-size: 16px; line-height: 24px; width: 100%; height: 48px; display: inline-block; position: relative; background-color: transparent; font-family: Roboto, sans-serif; transition: height 200ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; cursor: auto;">
-                                    <div style="position: absolute; opacity: 1; color: rgba(0, 0, 0, 0.298039); transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; bottom: 12px;">
-                                            First, Last Name
-                                    </div>
-                                        <input type="text" value="" id="undefined-FirstLastName-undefined-5556" style="padding: 0px; position: relative; width: 100%; border: none; outline: none; background-color: rgba(0, 0, 0, 0); color: rgb(146, 152, 160); cursor: inherit; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: inherit; line-height: inherit; font-family: inherit; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); height: 100%;">
-                                        <div>
-                                            <hr style="border-top: none rgb(224, 224, 224); border-left: none rgb(224, 224, 224); border-right: none rgb(224, 224, 224); border-bottom: 1px solid rgb(224, 224, 224); bottom: 8px; box-sizing: content-box; margin: 0px; position: absolute; width: 100%;">
-                                            <hr style="border-top: none rgb(71, 204, 176); border-left: none rgb(71, 204, 176); border-right: none rgb(71, 204, 176); border-bottom: 2px solid rgb(71, 204, 176); bottom: 8px; box-sizing: content-box; margin: 0px; position: absolute; width: 100%; transform: scaleX(0); transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms;">
-                                        </div>
-                                        <!-- react-text: 137 -->
-                                        <!-- /react-text -->
-                                    </div>
-                                    
-                                    <div style="font-size: 16px; line-height: 24px; width: 100%; height: 48px; display: inline-block; position: relative; background-color: transparent; font-family: Roboto, sans-serif; transition: height 200ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; cursor: auto;">
-                                        <div style="position: absolute; opacity: 1; color: rgba(0, 0, 0, 0.298039); transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; bottom: 12px;">Email Address</div>
-                                        <input type="text" value="" id="undefined-EmailAddress-undefined-31718" style="padding: 0px; position: relative; width: 100%; border: none; outline: none; background-color: rgba(0, 0, 0, 0); color: rgb(146, 152, 160); cursor: inherit; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: inherit; line-height: inherit; font-family: inherit; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); height: 100%;">
-                                        <div>
-                                            <hr style="border-top: none rgb(224, 224, 224); border-left: none rgb(224, 224, 224); border-right: none rgb(224, 224, 224); border-bottom: 1px solid rgb(224, 224, 224); bottom: 8px; box-sizing: content-box; margin: 0px; position: absolute; width: 100%;">
-                                            <hr style="border-top: none rgb(71, 204, 176); border-left: none rgb(71, 204, 176); border-right: none rgb(71, 204, 176); border-bottom: 2px solid rgb(71, 204, 176); bottom: 8px; box-sizing: content-box; margin: 0px; position: absolute; width: 100%; transform: scaleX(0); transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms;">
-                                        </div>
-                                        <!-- react-text: 144 --><!-- /react-text -->
-                                    </div>
-                                    
-                                    <div style="font-size: 16px; line-height: 24px; width: 100%; height: 120px; display: inline-block; position: relative; background-color: transparent; font-family: Roboto, sans-serif; transition: height 200ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; cursor: auto;"><div style="position: absolute; opacity: 1; color: rgba(0, 0, 0, 0.298039); transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; bottom: 12px;">Question</div>
-                                    <div style="position: relative; padding: 0px; width: 100%; border: none; outline: none; background-color: rgba(0, 0, 0, 0); color: rgb(146, 152, 160); cursor: inherit; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: inherit; line-height: inherit; font-family: inherit; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); height: 100%;">
-                                    <!-- react-empty: 148 -->
-                                        <textarea tabindex="-1" rows="4" readonly="" style="height: initial; width: 100%; resize: none; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: inherit; line-height: inherit; font-family: inherit; padding: 0px; cursor: inherit; position: absolute; border: none; outline: none; background-color: rgba(0, 0, 0, 0); color: rgb(146, 152, 160); -webkit-tap-highlight-color: rgba(0, 0, 0, 0); margin-top: 12px; margin-bottom: -12px; box-sizing: border-box; overflow: hidden; visibility: hidden;"></textarea>
-                                        <textarea id="undefined-Question-undefined-45374" rows="4" style="height: 96px; width: 100%; resize: none; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: inherit; line-height: inherit; font-family: inherit; padding: 0px; cursor: inherit; position: relative; border: none; outline: none; background-color: rgba(0, 0, 0, 0); color: rgb(146, 152, 160); -webkit-tap-highlight-color: rgba(0, 0, 0, 0); margin-top: 12px; margin-bottom: -12px; box-sizing: border-box;"></textarea>
-                                    </div>
-                                    
-                                    <div>
-                                        <hr style="border-top: none rgb(224, 224, 224); border-left: none rgb(224, 224, 224); border-right: none rgb(224, 224, 224); border-bottom: 1px solid rgb(224, 224, 224); bottom: 8px; box-sizing: content-box; margin: 0px; position: absolute; width: 100%;">
-                                        <hr style="border-top: none rgb(71, 204, 176); border-left: none rgb(71, 204, 176); border-right: none rgb(71, 204, 176); border-bottom: 2px solid rgb(71, 204, 176); bottom: 8px; box-sizing: content-box; margin: 0px; position: absolute; width: 100%; transform: scaleX(0); transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms;">
-                                    </div><!-- react-text: 154 --><!-- /react-text -->
-                                </div>
-                                
-                                <div style="float: right; margin: 20px 0px 0px;">
-                                    <div style="color: rgb(146, 152, 160); background-color: rgb(255, 255, 255); transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; box-sizing: border-box; font-family: Roboto, sans-serif; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); border-radius: 23px; display: inline-block; min-width: 88px;">
-                                        <button disabled="" tabindex="-1" type="button" style="border: 10px; box-sizing: border-box; display: inline-block; font-family: Roboto, sans-serif; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); cursor: default; text-decoration: none; margin: 0px; padding: 0px; outline: none; font-size: inherit; font-weight: inherit; position: relative; height: 36px; line-height: 36px; width: 100%; border-radius: 23px; transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; background-color: rgb(229, 229, 229); text-align: center;">
-                                            <div style="height: 36px; border-radius: 23px; transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; top: 0px;">
-                                                <span style="position: relative; opacity: 1; font-size: 14px; letter-spacing: 0px; text-transform: uppercase; font-weight: 500; margin: 0px; user-select: none; padding-left: 16px; padding-right: 16px; color: rgba(146, 152, 160, 0.298039);">send</span>
-                                            </div>
-                                        </button>
-                                    </div>
+                            <div id="form_div">
+                                <div > 
+                                    <div id="form"> 
+                                        <div id="form-center"  >   
+                                        <input type="text" class="field" placeholder="Name" /><br>
+                                        <input type="email" class="field" placeholder="E-mail" />
+                                        <textarea id="message" class="field" placeholder="Message"></textarea>
+                                        <input id="submit" type="submit" value="Send">
+                                        </div  > 
+                                    </div>  
                                 </div>
                             </div>
                         </div>
                     </div>
-                    
+
                     <div id="footer">
-                        <div class="false">
+                        <div>
                             <div class="left">
-                                <a href="mailto:info@trulotravel.com">info@trulotravel.com</a>
+                                <a href="">info@trecto.com</a>
                             </div>
                             <div class="right">
-                                <button tabindex="0" type="button" style="border: 10px; box-sizing: border-box; display: inline-block; font-family: Roboto, sans-serif; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); cursor: pointer; text-decoration: none; margin: 0px; padding: 12px; outline: none; font-size: 0px; font-weight: inherit; position: relative; overflow: visible; transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; width: 48px; height: 48px; background: none;">
+                                <button  type="button" class="social-media">
                                     <div>
-                                        <svg viewBox="0 0 24 24" style="display: inline-block; color: rgb(146, 152, 160); fill: white; height: 24px; width: 24px; user-select: none; transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms;"><g><path d="M11.988 0C8.732 0 8.324.014 7.045.072 5.77.13 4.898.332 4.135.63c-.788.306-1.456.716-2.123 1.382C1.346 2.678.936 3.347.63 4.135c-.297.763-.5 1.634-.557 2.91C.013 8.325 0 8.732 0 11.988c0 3.255.014 3.664.073 4.942.058 1.276.26 2.147.557 2.91.306.79.716 1.457 1.382 2.123.667.667 1.335 1.077 2.124 1.383.762.297 1.633.5 2.91.557 1.278.06 1.687.073 4.942.073 3.256 0 3.664-.014 4.943-.073 1.28-.058 2.15-.26 2.91-.557.79-.306 1.46-.716 2.13-1.382.67-.667 1.08-1.335 1.39-2.124.3-.762.5-1.633.56-2.91.06-1.278.07-1.686.07-4.942 0-3.255-.01-3.664-.07-4.942-.06-1.276-.26-2.147-.56-2.91-.303-.788-.713-1.457-1.38-2.123C21.3 1.347 20.63.937 19.84.63c-.76-.297-1.632-.5-2.91-.557C15.654.013 15.245 0 11.99 0m0 2.16c3.2 0 3.58.012 4.844.07 1.17.053 1.803.248 2.226.413.56.217.96.477 1.378.896.42.42.68.81.896 1.37.164.42.36 1.05.413 2.22.058 1.26.07 1.64.07 4.84s-.012 3.58-.07 4.843c-.053 1.17-.25 1.802-.413 2.225-.217.56-.477.96-.896 1.38-.42.42-.82.68-1.38.896-.42.165-1.056.36-2.225.414-1.262.06-1.642.07-4.842.07-3.2 0-3.58-.01-4.84-.07-1.17-.05-1.8-.25-2.22-.41-.56-.215-.96-.474-1.37-.894-.42-.42-.68-.82-.9-1.378-.163-.422-.36-1.057-.412-2.226-.056-1.26-.07-1.64-.07-4.84s.014-3.58.07-4.845c.055-1.17.25-1.8.414-2.223.217-.56.476-.96.896-1.38.417-.42.817-.68 1.376-.897.424-.16 1.058-.36 2.227-.41 1.26-.06 1.64-.07 4.84-.07"></path><path d="M11.988 15.983c-2.207 0-3.996-1.79-3.996-3.995 0-2.207 1.79-3.996 3.996-3.996 2.207 0 3.996 1.79 3.996 3.996 0 2.207-1.79 3.996-3.996 3.996m0-10.15c-3.4 0-6.155 2.755-6.155 6.154 0 3.4 2.756 6.156 6.155 6.156 3.4 0 6.156-2.756 6.156-6.156s-2.756-6.156-6.156-6.156m7.838-.243c0 .79-.644 1.43-1.44 1.43-.793 0-1.437-.65-1.437-1.44 0-.8.64-1.44 1.43-1.44s1.44.64 1.44 1.44"></path></g></svg>
+                                        <img src="images/instagram.png">
                                     </div>
                                 </button>
-                                <button tabindex="0" type="button" style="border: 10px; box-sizing: border-box; display: inline-block; font-family: Roboto, sans-serif; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); cursor: pointer; text-decoration: none; margin: 0px; padding: 12px; outline: none; font-size: 0px; font-weight: inherit; position: relative; overflow: visible; transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; width: 48px; height: 48px; background: none;">
+                                <button type="button" class="social-media">
                                     <div>
-                                        <svg viewBox="0 0 24 24" style="display: inline-block; color: rgb(146, 152, 160); fill: white; height: 22px; width: 28px; user-select: none; transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms;"><path d="M27.154 2.606c-.995.44-2.073.745-3.2.878 1.153-.687 2.03-1.777 2.453-3.076-1.078.637-2.27 1.1-3.547 1.348C21.85.68 20.4.004 18.8.004c-3.073 0-5.568 2.488-5.568 5.553 0 .438.05.86.142 1.265C8.742 6.59 4.64 4.382 1.89 1.02c-.482.818-.755 1.777-.755 2.794 0 1.925.986 3.628 2.477 4.618-.912-.023-1.764-.28-2.517-.694v.068c0 2.693 1.92 4.94 4.465 5.453-.465.12-.96.186-1.466.186-.356 0-.704-.032-1.052-.098.713 2.206 2.766 3.807 5.203 3.86-1.907 1.485-4.31 2.37-6.92 2.37-.447 0-.886-.026-1.325-.075C2.47 21.085 5.394 22 8.542 22c10.24 0 15.843-8.462 15.843-15.798l-.017-.72c1.095-.784 2.04-1.76 2.786-2.876z"></path></svg>
+                                        <img src="images/twitter.png">
                                     </div>
                                 </button>
-                                <button tabindex="0" type="button" style="border: 10px; box-sizing: border-box; display: inline-block; font-family: Roboto, sans-serif; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); cursor: pointer; text-decoration: none; margin: 0px; padding: 12px; outline: none; font-size: 0px; font-weight: inherit; position: relative; overflow: visible; transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; width: 48px; height: 48px; background: none;">
+                                <button type="button" class="social-media">
                                     <div>
-                                        <svg viewBox="0 0 24 24" style="display: inline-block; color: rgb(146, 152, 160); fill: white; height: 24px; width: 24px; user-select: none; transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms;"><path d="M10.11.353C6.34.353 3.9 2.733 3.9 6.42v2.796H.527c-.29 0-.527.224-.527.502v4.053c0 .28.237.507.527.507h3.375V24.5c0 .276.236.5.528.5h4.4c.293 0 .53-.224.53-.5V14.272h3.945c.292 0 .527-.226.527-.502l.003-4.05c0-.134-.057-.26-.155-.356-.1-.094-.233-.147-.374-.147H9.36v-2.37c0-1.14.285-1.72 1.843-1.72h2.26c.293 0 .528-.226.528-.502V.862c0-.28-.23-.503-.52-.504L10.11.353z"></path></svg>
+                                        <img src="images/facebook.png">
                                     </div>
                                 </button>
-                                <button tabindex="0" type="button" style="border: 10px; box-sizing: border-box; display: inline-block; font-family: Roboto, sans-serif; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); cursor: pointer; text-decoration: none; margin: 0px; padding: 12px; outline: none; font-size: 0px; font-weight: inherit; position: relative; overflow: visible; transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; width: 48px; height: 48px; background: none;">
+                                <button type="button" class="social-media">
                                     <div>
-                                        <svg viewBox="0 0 24 24" style="display: inline-block; color: rgb(146, 152, 160); fill: white; height: 24px; width: 24px; user-select: none; transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms;"><path d="M16.967 2.638C15.26.998 12.897.096 10.314.096 6.368.096 3.94 1.713 2.6 3.07.948 4.742 0 6.962 0 9.16c0 2.762 1.155 4.88 3.09 5.67.13.053.26.08.387.08.41 0 .732-.267.844-.695.07-.246.22-.852.288-1.115.14-.52.027-.77-.28-1.132-.56-.66-.82-1.444-.82-2.463 0-3.025 2.253-6.24 6.428-6.24 3.314 0 5.372 1.883 5.372 4.913 0 1.913-.412 3.684-1.16 4.988-.52.907-1.435 1.987-2.838 1.987-.608 0-1.153-.25-1.498-.685-.325-.41-.432-.94-.3-1.495.146-.625.348-1.277.543-1.907.355-1.152.69-2.24.69-3.107 0-1.49-.91-2.487-2.268-2.487-1.726 0-3.078 1.753-3.078 3.99 0 1.097.29 1.918.422 2.233l-1.753 7.43c-.143.6-.997 5.362.416 5.74 1.588.428 3.007-4.21 3.152-4.732.115-.43.525-2.04.776-3.03.765.74 2 1.237 3.2 1.237 2.263 0 4.298-1.017 5.73-2.866 1.39-1.793 2.155-4.293 2.155-7.038 0-2.146-.92-4.26-2.528-5.804z"></path></svg>
+                                        <img src="images/pintrest.png">
                                     </div>
                                 </button>
                             </div>
                         </div>
                         
-                        <p style="color: white; text-align: center; font-size: 10px; padding: 5px 0px; margin-top: -20px; cursor: pointer;"><!-- react-text: 184 -->© 2017 Trulotravel.com. <!-- /react-text -->
+                        <p class="copyright">Trecto.com 2017 
                             <span>Terms and conditions &amp; Privacy Policy</span>
                         </p>
-                        </div>
                     </div>
-                </div><!-- react-empty: 186 -->
-            </div>
-            <span style="transition: opacity 0.5s;">
-                <button class="hidden metro"><!-- react-text: 189 -->Login with Facebook<!-- /react-text --></button>
-            </span>
-        </div>
-    </div>
-</div>
+              </article>
+        </app>
+    </main>
 
-<script type="text/javascript" src="/vendor.52de36e2b4d4e6834588.js"></script>
-<script type="text/javascript" id="">(function(e,a){if(!a.__SV){var b=window;try{var c,n,k,l=b.location,g=l.hash;c=function(a,b){return(n=a.match(RegExp(b+"\x3d([^\x26]*)")))?n[1]:null};g&&c(g,"state")&&(k=JSON.parse(decodeURIComponent(c(g,"state"))),"mpeditor"===k.action&&(b.sessionStorage.setItem("_mpcehash",g),history.replaceState(k.desiredHash||"",e.title,l.pathname+l.search)))}catch(p){}var m,h;window.mixpanel=a;a._i=[];a.init=function(b,c,f){function e(b,a){var c=a.split(".");2==c.length&&(b=b[c[0]],a=c[1]);b[a]=function(){b.push([a].concat(Array.prototype.slice.call(arguments,
-            0)))}}var d=a;"undefined"!==typeof f?d=a[f]=[]:f="mixpanel";d.people=d.people||[];d.toString=function(b){var a="mixpanel";"mixpanel"!==f&&(a+="."+f);b||(a+=" (stub)");return a};d.people.toString=function(){return d.toString(1)+".people (stub)"};m="disable time_event track track_pageview track_links track_forms register register_once alias unregister identify name_tag set_config reset people.set people.set_once people.increment people.append people.union people.track_charge people.clear_charges people.delete_user".split(" ");
-            for(h=0;h<m.length;h++)e(d,m[h]);a._i.push([b,c,f])};a.__SV=1.2;b=e.createElement("script");b.type="text/javascript";b.async=!0;b.src="undefined"!==typeof MIXPANEL_CUSTOM_LIB_URL?MIXPANEL_CUSTOM_LIB_URL:"file:"===e.location.protocol&&"//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js".match(/^\/\//)?"https://cdn.mxpnl.com/libs/mixpanel-2-latest.min.js":"//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js";c=e.getElementsByTagName("script")[0];c.parentNode.insertBefore(b,c)}})(document,window.mixpanel||[]);
-            mixpanel.init("f512079f446a1a98ac4d69338d64b241");
-</script>
-<script type="text/javascript" id="">mixpanel.track("Pageview");</script>
-<script type="text/javascript" id="">(function(e,a){if(!a.__SV){var b=window;try{var c,n,k,l=b.location,g=l.hash;c=function(a,b){return(n=a.match(RegExp(b+"\x3d([^\x26]*)")))?n[1]:null};g&&c(g,"state")&&(k=JSON.parse(decodeURIComponent(c(g,"state"))),"mpeditor"===k.action&&(b.sessionStorage.setItem("_mpcehash",g),history.replaceState(k.desiredHash||"",e.title,l.pathname+l.search)))}catch(p){}var m,h;window.mixpanel=a;a._i=[];a.init=function(b,c,f){function e(b,a){var c=a.split(".");2==c.length&&(b=b[c[0]],a=c[1]);b[a]=function(){b.push([a].concat(Array.prototype.slice.call(arguments,
-            0)))}}var d=a;"undefined"!==typeof f?d=a[f]=[]:f="mixpanel";d.people=d.people||[];d.toString=function(b){var a="mixpanel";"mixpanel"!==f&&(a+="."+f);b||(a+=" (stub)");return a};d.people.toString=function(){return d.toString(1)+".people (stub)"};m="disable time_event track track_pageview track_links track_forms register register_once alias unregister identify name_tag set_config reset people.set people.set_once people.increment people.append people.union people.track_charge people.clear_charges people.delete_user".split(" ");
-            for(h=0;h<m.length;h++)e(d,m[h]);a._i.push([b,c,f])};a.__SV=1.2;b=e.createElement("script");b.type="text/javascript";b.async=!0;b.src="undefined"!==typeof MIXPANEL_CUSTOM_LIB_URL?MIXPANEL_CUSTOM_LIB_URL:"file:"===e.location.protocol&&"//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js".match(/^\/\//)?"https://cdn.mxpnl.com/libs/mixpanel-2-latest.min.js":"//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js";c=e.getElementsByTagName("script")[0];c.parentNode.insertBefore(b,c)}})(document,window.mixpanel||[]);
-            mixpanel.init("YOUR TOKEN");
-</script>
-<script type="text/javascript" src="/app.aab406cbe4c208dbd6ea.js"></script>
-
-<style>
-    button::-moz-focus-inner,
-    input::-moz-focus-inner {
-        border: 0;
-        padding: 0;
-    }
-</style>
-
-<div id="fb-root" class=" fb_reset">
-    <div style="position: absolute; top: -10000px; height: 0px; width: 0px;">
-        <div>
-            <iframe name="fb_xdm_frame_https" frameborder="0" allowtransparency="true" allowfullscreen="true" scrolling="no" id="fb_xdm_frame_https" aria-hidden="true" title="Facebook Cross Domain Communication Frame" tabindex="-1" src="https://staticxx.facebook.com/connect/xd_arbiter/r/nRK_i0jz87x.js?version=42#channel=f3046c58c17ecbc&amp;origin=https%3A%2F%2Fwww.trulotravel.com" style="border: none;"></iframe>
-        </div>
-    </div>
-    <div style="position: absolute; top: -10000px; height: 0px; width: 0px;">
-        <div></div>
-    </div>
-</div>
-</body>
-</html>
+     
 
 
-    <style>
-        @import url(https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css);@import url(https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css);@import url(https://fonts.googleapis.com/css?family=Montserrat|Lato:300,400,500|Roboto:300,300i,400,500);.container{height:100%;width:100%}/* Generated by Font Squirrel (http://www.fontsquirrel.com) on February 16, 2015 */
-@font-face {
-    font-family: 'fabfeltscriptbold';
-    src: url(/src/styles/fonts/FabfeltScript/fabfeltscript-bold.eot);
-    src: url(/src/styles/fonts/FabfeltScript/fabfeltscript-bold.eot?#iefix) format('embedded-opentype'),
-         url(/src/styles/fonts/FabfeltScript/fabfeltscript-bold.woff2) format('woff2'),
-         url(/src/styles/fonts/FabfeltScript/fabfeltscript-bold.woff) format('woff'),
-         url(/src/styles/fonts/FabfeltScript/fabfeltscript-bold.ttf) format('truetype'),
-         url(/src/styles/fonts/FabfeltScript/fabfeltscript-bold.svg#fabfeltscriptbold) format('svg');
-    font-weight: normal;
-    font-style: normal;
-}html{font-family:sans-serif;line-height:1.15;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,aside,footer,header,nav,section{display:block}h1{font-size:2em;margin:.67em 0}figcaption,figure,main{display:block}figure{margin:1em 40px}hr{box-sizing:content-box;height:0;overflow:visible}pre{font-family:monospace,monospace;font-size:1em}a{background-color:transparent;-webkit-text-decoration-skip:objects}a:active,a:hover{outline-width:0}abbr[title]{border-bottom:none;text-decoration:underline;text-decoration:underline dotted}b,strong{font-weight:inherit;font-weight:bolder}code,kbd,samp{font-family:monospace,monospace;font-size:1em}dfn{font-style:italic}mark{background-color:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}audio,video{display:inline-block}audio:not([controls]){display:none;height:0}img{border-style:none}svg:not(:root){overflow:hidden}button,input,optgroup,select,textarea{font-family:sans-serif;font-size:100%;line-height:1.15;margin:0}button,input{overflow:visible}button,select{text-transform:none}[type=reset],[type=submit],button,html [type=button]{-webkit-appearance:button}[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner,button::-moz-focus-inner{border-style:none;padding:0}[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring,button:-moz-focusring{outline:1px dotted ButtonText}fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em}legend{box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal}progress{display:inline-block;vertical-align:baseline}textarea{overflow:auto}[type=checkbox],[type=radio]{box-sizing:border-box;padding:0}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}[type=search]::-webkit-search-cancel-button,[type=search]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}details,menu{display:block}summary{display:list-item}canvas{display:inline-block}[hidden],template{display:none}[type=reset],[type=submit],button,html [type=button]{-webkit-appearance:none}.infoBox{overflow:visible!important}.popoverContainer{position:fixed;width:100%;height:1px;top:0;left:0;z-index:12312321321312311000;transform:translateZ(0);-webkit-overflow-scrolling:touch}.facebook-button{font-family:Roboto,sans-serif;font-weight:700;color:#fff;cursor:pointer;display:inline-block;font-size:calc(0vw + 14px);text-decoration:none;text-transform:uppercase;transition:background-color .3s,border-color .3s;background-color:#4c69ba;border:calc(0vw + 1px) solid #4c69ba;border-radius:25px;padding:calc(0vw + 20px) calc(0vw + 25px);box-shadow:5px 5px 20px 0 rgba(87,126,184,.5)}.facebook-button:focus{outline:0}html{box-sizing:border-box}body,html{margin:0;padding:0;height:100%}*,:after,:before{box-sizing:inherit}.iconlink{color:#9298a0!important}#welcome>div{margin:0 auto;text-align:center;position:relative;padding-top:15%;height:100%}#welcome>div.small{padding-top:10%}#welcome>div.small .signup{position:absolute;bottom:0;margin:0;left:50%;transform:translate(10%,50%)}#welcome>div.small .login{position:absolute;bottom:0;margin:0;left:50%;transform:translate(-110%,50%)}#welcome>div.small .enter{position:absolute;bottom:0;margin:0;left:50%;transform:translate(-50%,50%)}#welcome>div h1{font-family:fabfeltscriptbold;font-weight:400;font-size:80px;color:#fff;margin:0}#welcome>div h1.small{font-size:60px;margin:0 0 10px;padding:0 20px;line-height:55px}#welcome>div h2{font-family:Roboto,sans-serif;font-size:20px;letter-spacing:2.4px;font-weight:400;color:#fff;text-transform:uppercase;margin:5px 0}#welcome>div h2.small{font-size:16px;letter-spacing:1.9px}#welcome>div .enter,#welcome>div .login,#welcome>div .signup{margin:46px 10px}#about{text-align:center;padding:20px;clear:"both";height:100%;max-width:1200px;margin:0 auto}#about h1{color:#47ccb0;font-size:50px}#about h1,#about p{font-family:Roboto,sans-serif;font-weight:300}#about p{font-size:20px;color:#3d4144}#about p.larger{font-size:30px}#about 
-.cards{text-align:"center";margin:0 auto}#about .card{color:#fff;font-weight:400;height:100%;width:100%;background-image:linear-gradient(180deg,transparent 18%,rgba(0,0,0,.6))}
-#about .card h5{font-size:25px}#about 
-.card h5,#about .card h6{margin:0;font-weight:500;line-height:25px}#about .card h6{font-size:15px;text-transform:uppercase}#about .card>div{position:absolute;bottom:15%;width:100%;text-align:center}#about .card>div.small h5{font-size:17px}#about .card>div.small h6{font-size:14px;line-height:15px}
-#howitworks{text-align:center;margin:50px auto;max-width:1200px}#howitworks h1{font-size:50px;margin:50px 0 30px}#howitworks h1,#howitworks h2{font-family:Roboto,sans-serif;color:#47ccb0;font-weight:300}#howitworks h2{font-size:30px;margin:20px 0 30px}#howitworks p{padding:0 20px;font-weight:300;color:#3d4144;font-size:20px}#howitworks p.larger{font-size:30px}#howitworks .cards{display:-ms-flexbox;display:flex}#testimonials{overflow:hidden;background-color:#9ea6b1}#testimonials .btn{position:absolute;top:50%;transition:translate(0,-50%);z-index:312321312;color:#fff;cursor:pointer;height:100px}#testimonials .btn.small{top:60px}#testimonials .btn i{font-size:80px;font-weight:300}#testimonials .btn.next{right:30px}#testimonials .btn.next.small{right:0}#testimonials .btn.prev{left:30px}#testimonials .btn.prev.small{left:0}#testimonials .card{overflow:hidden;height:600px;margin:0 auto;clear:both}#testimonials .card>div{vertical-align:top;height:600px;background-image:linear-gradient(270deg,rgba(158,166,177,0) 30%,#9ea6b1 1300px)}#testimonials .card .content{width:calc(100% - 200px);max-width:1100px;color:#fff;height:600px;margin:0 auto;padding:0;font-family:Roboto,sans-serif;font-weight:300;position:relative}#testimonials .card .content>div{position:absolute;top:50%;transform:translateY(-50%)}#testimonials .card .content>div p{width:500px}#testimonials .card .content>div h3{font-weight:400;font-size:50px;line-height:50px;margin:0}#testimonials .card .content>div h4{opacity:.6;font-weight:400;line-height:1}#testimonials .card .small .content{text-align:center;height:100%;width:100%;background-image:linear-gradient(180deg,rgba(158,166,177,0) 10%,#9ea6b1 30%);padding:0}#testimonials .card .small .content h3{margin:30% 0 10px;font-size:30px;line-height:30px}#testimonials .card .small .content h4{font-size:15px;margin:10px 0}#testimonials .card .small .content p{width:100%;padding:0 20px}#contact>div{height:100%;display:-ms-flexbox;display:flex;max-width:1060px;margin:0 auto;padding:20px}#contact>div h1{font-family:Roboto,sans-serif;color:#47ccb0;font-size:50px;font-weight:300;margin:80px 0 0}#contact>div .left{-ms-flex:1;flex:1}#contact>div .right{-ms-flex:2;flex:2;padding-top:70px}#contact>div.small{display:block;text-align:center}#contact>div.small h1{margin:20px 0 0;font-size:40px}#contact>div.small .left{width:100%;clear:both}
-#footer{background-color:#3d4144}#footer>div{height:100%;display:-ms-flexbox;display:flex;max-width:1060px;margin:0 auto;padding:80px 20px;color:#fff}#footer>div a{color:#fff;font-size:25px;font-weight:300;font-family:Roboto,sans-serif}#footer>div .left{-ms-flex:1;flex:1}#footer>div .right{-ms-flex:1;flex:1;text-align:right}#footer>div.small{display:block;text-align:center;padding:40px 20px}#footer>div.small a{font-size:20px}#footer>div.small .left{width:100%;clear:both}#footer>div.small .right{text-align:center;padding:10px 0 0}
-.page404{font-family:Roboto,sans-serif;text-align:center;font-weight:400;margin:100px auto}.page404 h1{color:#47ccb0;font-size:50px;font-weight:300}.page404 h2{font-weight:300;color:#3d4144}.pageTerms{font-family:Roboto,sans-serif;text-align:left;font-weight:400;line-height:1.2em;margin:20px}.pageTerms h1{color:#47ccb0;font-size:50px;font-weight:300;line-height:50px}.pageTerms h2{font-weight:300;color:#3d4144}.pageTerms p{margin-left:10px}.pageTerms li{margin-bottom:8px}.pageTerms .center{text-align:center}.closeButton{background-color:rgba(0,0,0,.3)!important;border-radius:25px}.facebook-button.flat,.facebook-button.small{padding:calc(0vw + 10px) calc(0vw + 12px)}.facebook-button.flat{color:#47ccb0;box-shadow:none;background-color:#fff;border-color:#fff;margin-right:20px}.facebook-button.dark{color:#3d4144;width:88px;height:36px;box-shadow:inherit}.facebook-button.menu{color:#9298a0;height:36px;box-shadow:inherit}.facebook-button .fa{margin-right:calc(0vw + 5px)}.hidden{display:none}.dialog-services{font-size:15px}.dialog-services .checkbox{margin-bottom:7px}.dialog-services .confirm{margin-top:20px}.dialog-content{text-align:center}.dialog-content h2{color:#47ccb0;font-size:30px;line-height:1;font-weight:500;font-style:normal;font-stretch:normal;margin-bottom:10px}.dialog-content h2 span{text-decoration:underline;display:block;width:100%;text-overflow:ellipsis;white-space:nowrap;overflow:hidden}.dialog-content h2.dark{color:#45494e}.dialog-content.notification h2{margin-top:0}.dialog-content h3{color:#47ccb0;text-transform:uppercase;font-family:Montserrat,sans-serif;font-size:13px;font-weight:400;margin:50px 0 20px}.dialog-content p{font-size:15px;line-height:1.2;color:#9298a0;margin:8px 0 30px}.dialog-content a{cursor:pointer;color:#000;text-decoration:underline}.dialog-content .button{margin:0 20px 10px;width:200px}.dialog-content .button.small{margin:0 0 10px}.dialog-content.small h2{font-size:20px}.dialog-content.small h3{margin-bottom:10px}.dialog-content.small p{margin-bottom:20px}.dialog-content.connection h2 span,.tribe-dialog .dialog-content h2 span{display:inline!important}.connection-section{background-size:cover!important}.connection-section.small{margin:10px;background-color:#fff;border-radius:3px}.connection-section.small.connection{margin:0}.connection-section.small.connection .button{min-width:50px!important}.connection-section .profile{background-image:linear-gradient(180deg,transparent 8%,rgba(0,0,0,.6))}.connection-section .profile .info{left:100px;bottom:28px}.connection-section .profile .info a{color:#fff}.connection-section .profile .info span{text-decoration:underline}.connection-section .profile .info h1{font-size:18px;margin:0 0 2px;font-weight:400}.connection-section .profile .info h2{font-size:15px;font-weight:300;margin-bottom:0}.connection-section .profile .city{color:#fff;top:69px;width:100%;text-align:center;position:absolute;text-transform:uppercase;font-size:25px}.profile{width:100%;height:100%;background-image:linear-gradient(180deg,transparent 18%,rgba(0,0,0,.6));position:relative}.profile .info{color:#fff;position:absolute;bottom:0;left:147px;font-family:Lato,sans-serif}.profile .info h1{font-size:20px;margin:0 0 2px}.profile .info h2{font-size:17px;margin:0 0 15px;font-weight:400}.profile .info h3{margin:0 0 5px;font-size:15px}.profile .buttons{position:absolute;top:30px;right:30px}.marker-label-arrow{width:0;height:0;border-style:solid;border-radius:150px;border-width:33px 23px 0;border-color:#007bff transparent transparent;position:absolute;left:0;top:60%}.marker-label{background-color:#fff;border-radius:50px;position:absolute;min-width:100px;top:calc(100% - 15px);left:calc(50% - 10px);padding:5px 10px;transform:translate(-50%);text-align:center;font-family:Lato,sans-serif;font-size:14px;box-shadow:5px 5px 10px 0}.marker-label.down{top:calc(100% + 18px);left:50%;transform:translate(-50%)}.marker-label .name{line-height:14px;white-space:nowrap}.marker-label .city{font-size:11px;text-transform:uppercase;color:#9298a0;line-height:18px;white-space:nowrap}.ellipsis{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.section{font-size:15px;display:block;clear:both;overflow:auto;padding:10px 30px 0 0}.section>div{padding-left:30px}.section.first{margin-top:20px}.section h3{text-transform:uppercase;font-family:Montserrat,sans-serif;font-size:13px;font-weight:400;margin-left:30px}.section .field-background{width:100%;margin-bottom:20px;padding-left:20px}.section .dialog-services{margin-top:0}.section .connections-circle{padding:3px 10px 0;margin:0 0 10px;float:left;overflow:hidden;box-sizing:content-box;cursor:pointer}.section .connections-circle:hover{background-color:rgba(0,0,0,.05)}.section .connections-circle div.label{text-align:center;overflow:hidden;white-space:nowrap;padding:8px 0 0;font-size:15px;text-overflow:ellipsis}.section .connections-circle div.more{width:59px;height:59px;color:#fff;line-height:59px;font-size:20px;font-family:Montserrat,sans-serif}.section .connections-circle div.more span{display:inline-block;margin-left:-5px}ul.error{color:#f53c2f;font-size:12px}.trips .trip-section{cursor:pointer}.trips .trip-section:hover{background-color:#f5f5f5!important}.trips h3{text-transform:uppercase;font-family:Montserrat,sans-serif;font-size:13px;font-weight:400;margin-left:30px}.trips .button{background-size:cover!important}.new-trip .header{height:250px;background-size:cover;text-align:center;color:#fff}.new-trip .header div.large{font-size:40px;padding:100px 0 5px}.new-trip .header div.small{font-size:15px}.new-trip h3{color:#47ccb0;text-transform:uppercase;font-family:Montserrat,sans-serif;font-size:13px;font-weight:400;margin:20px 0 0 30px}.new-trip .form{padding:20px}.new-trip .buttons{margin:20px 0 0}.edit-trip .right input{text-align:right!important}.edit-trip input{color:#fff!important;font-size:15px!important}.edit-trip .trip-todo-list{padding:20px 0 0}.messages h3{text-transform:uppercase;font-family:Montserrat,sans-serif;font-size:13px;font-weight:400;margin-left:30px}.messages h3.new{color:#47ccb0}.messages .button{background-size:cover!important}.user-message .content{width:100%}.user-message .buttonContainer,.user-message .content{display:-ms-flexbox;display:flex;-ms-flex-direction:column;flex-direction:column}.user-message .buttonContainer{-ms-flex-align:center;align-items:center;-ms-flex-pack:center;justify-content:center;width:120px}.user-message .messages{-ms-flex:1;flex:1;overflow:auto}.user-message .new-panel{width:100%;min-height:48px;padding:5px 0 5px 15px;background-color:#fff;display:-ms-flexbox;display:flex}.field-container{display:block;text-align:center}.field-background{background-color:#f3f6f8;display:inline-block;border-radius:50px;margin:0 auto}
-    </style>
+    <script>
+        $(document).ready(function(){
+   $('.slider').slick({
+    dots: true,
+  infinite: true,
+  speed: 300,
+  slidesToShow: 1,
+  autoplay: true,
+  autoplaySpeed: 2000,
+  fade: true,
+  cssEase: 'linear',
+  arrows: true,
+  adaptiveHeight: true
+});
+console.log('hello there')
+});
 
-    
+
+$(".toggle").click(function () {
+//   $(this).toggleClass("active");
+// console.log('clicled')
+$("div.right").toggleClass("test");
+});
+
+$(".link").click(function () {
+//   $(this).toggleClass("active");
+// console.log('clicled')
+$("div.right").toggleClass("test");
+});
+    </script>
+    </body>
+</html> 
