@@ -6,6 +6,14 @@
   src="https://code.jquery.com/jquery-3.2.1.js"
   integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
   crossorigin="anonymous"></script>
+
+
+
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/0.10.0/ui-bootstrap-tpls.min.js"></script>
+  </head>
      <script type="text/javascript" src="http://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
 	<link rel="stylesheet" href="slick.css">
     <body>
@@ -30,7 +38,7 @@
             </div>
         </div>-->
         <nav class="navbar">
-            <!--<div class="hamburger"><i></i></div>-->
+           
             <div>
     <a href="#" class="toggle"><i class="fa fa-reorder"></i></a>
     </div>
@@ -39,7 +47,7 @@
     <div class="right">
         
       <a href="#" class="link">Welcome</a>
-      <a href="#" class="link">About</a>
+      <a  href="#p2" class="link">About</a>
       <a href="#" class="link">How It Works</a>
       <a href="#" class="link">Testimonials</a>
       <a href="#" class="link">Contact</a>
@@ -80,11 +88,11 @@
                                     </div>
             </div>
             
-            <main class="main-area">
+            <main class="main-area" id="p2">
                 <div class="centered">
                 <h1 style="text-align: center; font-size: 36; color: #942B99; margin-top: 2em" >TRECTO IS THE NEXT BIG THING</h1>
                                         <p  style="text-align: center" class="larger"><!-- react-text: 44 -->Exploring the world is the best. Exploring the world like a <!-- /react-text -->
-                                            <i>true local</i>
+                                            <p>true local</p>
                                             <!-- react-text: 46 --> is even better.<!-- /react-text -->
                                         </p>
                                         <p style="text-align: center" ><!-- react-text: 48 -->Get access to insiders generated from your friends and mutual friends to experience a city like the locals do.<!-- /react-text -->
@@ -293,15 +301,15 @@
 
 
 <div id="contact" style="background: url(&quot;/9290189b6b59703c3501e8774762fe9f.jpg&quot;) center center / cover no-repeat; height: 800px;">
-                        <div class="false">
-                            <div class="left">
+                        <div class="false" style="display:flex; flex-flow: row;">
+                            <div style="flex:2">
                                 <h1><!-- react-text: 127 -->HAVE A <!-- /react-text -->
                                     <br><!-- react-text: 129 --> QUESTION?<!-- /react-text -->
                                 </h1>
                             </div>
                             
-                            <div class="right">
-                                <div style="font-size: 16px; line-height: 24px; width: 100%; height: 48px; display: inline-block; position: relative; background-color: transparent; font-family: Roboto, sans-serif; transition: height 200ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; cursor: auto;">
+                            <div  style="flex:3" id="form_div">
+                                <!--<div style="font-size: 16px; line-height: 24px; width: 100%; height: 48px; display: inline-block; position: relative; background-color: transparent; font-family: Roboto, sans-serif; transition: height 200ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; cursor: auto;">
                                     <div style="position: absolute; opacity: 1; color: rgba(0, 0, 0, 0.298039); transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; bottom: 12px;">
                                             First, Last Name
                                     </div>
@@ -312,32 +320,32 @@
                                         </div>
                                         <!-- react-text: 137 -->
                                         <!-- /react-text -->
-                                    </div>
+                                    <!--</div>-->
                                     
-                                    <div style="font-size: 16px; line-height: 24px; width: 100%; height: 48px; display: inline-block; position: relative; background-color: transparent; font-family: Roboto, sans-serif; transition: height 200ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; cursor: auto;">
+                                    <!--<div style="font-size: 16px; line-height: 24px; width: 100%; height: 48px; display: inline-block; position: relative; background-color: transparent; font-family: Roboto, sans-serif; transition: height 200ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; cursor: auto;">
                                         <div style="position: absolute; opacity: 1; color: rgba(0, 0, 0, 0.298039); transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; bottom: 12px;">Email Address</div>
                                         <input type="text" value="" id="undefined-EmailAddress-undefined-31718" style="padding: 0px; position: relative; width: 100%; border: none; outline: none; background-color: rgba(0, 0, 0, 0); color: rgb(146, 152, 160); cursor: inherit; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: inherit; line-height: inherit; font-family: inherit; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); height: 100%;">
                                         <div>
                                             <hr style="border-top: none rgb(224, 224, 224); border-left: none rgb(224, 224, 224); border-right: none rgb(224, 224, 224); border-bottom: 1px solid rgb(224, 224, 224); bottom: 8px; box-sizing: content-box; margin: 0px; position: absolute; width: 100%;">
                                             <hr style="border-top: none rgb(71, 204, 176); border-left: none rgb(71, 204, 176); border-right: none rgb(71, 204, 176); border-bottom: 2px solid rgb(71, 204, 176); bottom: 8px; box-sizing: content-box; margin: 0px; position: absolute; width: 100%; transform: scaleX(0); transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms;">
-                                        </div>
+                                        </div>-->
                                         <!-- react-text: 144 --><!-- /react-text -->
-                                    </div>
+                                    <!--</div>-->
                                     
-                                    <div style="font-size: 16px; line-height: 24px; width: 100%; height: 120px; display: inline-block; position: relative; background-color: transparent; font-family: Roboto, sans-serif; transition: height 200ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; cursor: auto;"><div style="position: absolute; opacity: 1; color: rgba(0, 0, 0, 0.298039); transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; bottom: 12px;">Question</div>
+                                    <!--<div style="font-size: 16px; line-height: 24px; width: 100%; height: 120px; display: inline-block; position: relative; background-color: transparent; font-family: Roboto, sans-serif; transition: height 200ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; cursor: auto;"><div style="position: absolute; opacity: 1; color: rgba(0, 0, 0, 0.298039); transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; bottom: 12px;">Question</div>
                                     <div style="position: relative; padding: 0px; width: 100%; border: none; outline: none; background-color: rgba(0, 0, 0, 0); color: rgb(146, 152, 160); cursor: inherit; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: inherit; line-height: inherit; font-family: inherit; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); height: 100%;">
                                     <!-- react-empty: 148 -->
-                                        <textarea tabindex="-1" rows="4" readonly="" style="height: initial; width: 100%; resize: none; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: inherit; line-height: inherit; font-family: inherit; padding: 0px; cursor: inherit; position: absolute; border: none; outline: none; background-color: rgba(0, 0, 0, 0); color: rgb(146, 152, 160); -webkit-tap-highlight-color: rgba(0, 0, 0, 0); margin-top: 12px; margin-bottom: -12px; box-sizing: border-box; overflow: hidden; visibility: hidden;"></textarea>
-                                        <textarea id="undefined-Question-undefined-45374" rows="4" style="height: 96px; width: 100%; resize: none; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: inherit; line-height: inherit; font-family: inherit; padding: 0px; cursor: inherit; position: relative; border: none; outline: none; background-color: rgba(0, 0, 0, 0); color: rgb(146, 152, 160); -webkit-tap-highlight-color: rgba(0, 0, 0, 0); margin-top: 12px; margin-bottom: -12px; box-sizing: border-box;"></textarea>
-                                    </div>
+                                        <!--<textarea tabindex="-1" rows="4" readonly="" style="height: initial; width: 100%; resize: none; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: inherit; line-height: inherit; font-family: inherit; padding: 0px; cursor: inherit; position: absolute; border: none; outline: none; background-color: rgba(0, 0, 0, 0); color: rgb(146, 152, 160); -webkit-tap-highlight-color: rgba(0, 0, 0, 0); margin-top: 12px; margin-bottom: -12px; box-sizing: border-box; overflow: hidden; visibility: hidden;"></textarea>-->
+                                        <!--<textarea id="undefined-Question-undefined-45374" rows="4" style="height: 96px; width: 100%; resize: none; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: inherit; line-height: inherit; font-family: inherit; padding: 0px; cursor: inherit; position: relative; border: none; outline: none; background-color: rgba(0, 0, 0, 0); color: rgb(146, 152, 160); -webkit-tap-highlight-color: rgba(0, 0, 0, 0); margin-top: 12px; margin-bottom: -12px; box-sizing: border-box;"></textarea>-->
+                                    <!--</div>-->
                                     
-                                    <div>
-                                        <hr style="border-top: none rgb(224, 224, 224); border-left: none rgb(224, 224, 224); border-right: none rgb(224, 224, 224); border-bottom: 1px solid rgb(224, 224, 224); bottom: 8px; box-sizing: content-box; margin: 0px; position: absolute; width: 100%;">
-                                        <hr style="border-top: none rgb(71, 204, 176); border-left: none rgb(71, 204, 176); border-right: none rgb(71, 204, 176); border-bottom: 2px solid rgb(71, 204, 176); bottom: 8px; box-sizing: content-box; margin: 0px; position: absolute; width: 100%; transform: scaleX(0); transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms;">
-                                    </div><!-- react-text: 154 --><!-- /react-text -->
-                                </div>
+                                    <!--<div>-->
+                                        <!--<hr style="border-top: none rgb(224, 224, 224); border-left: none rgb(224, 224, 224); border-right: none rgb(224, 224, 224); border-bottom: 1px solid rgb(224, 224, 224); bottom: 8px; box-sizing: content-box; margin: 0px; position: absolute; width: 100%;">-->
+                                        <!--<hr style="border-top: none rgb(71, 204, 176); border-left: none rgb(71, 204, 176); border-right: none rgb(71, 204, 176); border-bottom: 2px solid rgb(71, 204, 176); bottom: 8px; box-sizing: content-box; margin: 0px; position: absolute; width: 100%; transform: scaleX(0); transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms;">-->
+                                    <!--</div> react-text: 154  /react-text -->
+                                <!--</div>-->
                                 
-                                <div style="float: right; margin: 20px 0px 0px;">
+                                <!--<div style="float: right; margin: 20px 0px 0px;">
                                     <div style="color: rgb(146, 152, 160); background-color: rgb(255, 255, 255); transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; box-sizing: border-box; font-family: Roboto, sans-serif; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); border-radius: 23px; display: inline-block; min-width: 88px;">
                                         <button disabled="" tabindex="-1" type="button" style="border: 10px; box-sizing: border-box; display: inline-block; font-family: Roboto, sans-serif; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); cursor: default; text-decoration: none; margin: 0px; padding: 0px; outline: none; font-size: inherit; font-weight: inherit; position: relative; height: 36px; line-height: 36px; width: 100%; border-radius: 23px; transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; background-color: rgb(229, 229, 229); text-align: center;">
                                             <div style="height: 36px; border-radius: 23px; transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; top: 0px;">
@@ -345,7 +353,24 @@
                                             </div>
                                         </button>
                                     </div>
-                                </div>
+                                </div>-->
+                                <div >
+  
+    <div id="form">
+  
+        
+    <input type="text" class="field" placeholder="Name" /><br>
+    <input type="email" class="field" placeholder="E-mail" />
+  
+    <textarea id="message" class="field" placeholder="Message"></textarea>
+    
+    <input id="submit" type="submit" value="Send">
+
+       
+    </div>  
+  
+  
+</div>
                             </div>
                         </div>
                     </div>
@@ -462,6 +487,9 @@ main {
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.24);
 
 }*/
+.toggle {
+    display: none;
+}
 
 .branding,
     .page-details,
@@ -955,4 +983,55 @@ figure {
       position: absolute;
       top: 8px;
     }
+
+    #form_div{
+  width:500px;
+  height:500px;
+  padding-top:30px;
+  margin:150px auto;
+  background-color:none;
+}
+
+#form{
+  width:520px;
+  margin:0px auto;
+}
+
+.field{
+  
+  width:500px;
+  padding:2px;
+  border:none;
+  outline:none;
+  background:none;
+  color:rgb(213,213,213);
+  font-style:italic;
+  border-bottom:2px solid rgb(255, 144, 116);
+  margin-bottom:8px; 
+}
+
+#message{
+  resize:none;
+  height:100px;
+  overflow-y:hidden;
+}
+
+#submit{
+  padding:8px;
+  width:100px;
+  border:none;
+  background-color:rgb(255, 144, 116);
+  color:white;
+  font-size:17px;
+  cursor:pointer;
+  opacity:1;
+  float:right;
+  margin-right:20px;
+  transition:opacity 0.5s;
+}
+
+#submit:hover{
+  opacity:0.7;
+}
+
 </style>
