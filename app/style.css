@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/icon?family=Material+Icons');
 @import url('https://fonts.googleapis.com/css?family=Work+Sans');
+@import url('https://fonts.googleapis.com/css?family=Yellowtail');
 
 /*DEFAULT STYLES*/
 
@@ -98,7 +99,7 @@ aside {
     text-align: center;
     padding: 1.6em;
     text-decoration: none;   
-    color:#FFA70B;   
+    color: white;   
   }
 
 .brand {
@@ -117,7 +118,7 @@ aside {
 
 /*HOME PAGE*/
 #welcome {
-    background: url('images/ryan-riggins-213451.png') center center / cover no-repeat; 
+    background: url('images/paris-night.jpg') center center / cover no-repeat; 
     height: 100vh;
 }
 
@@ -130,10 +131,11 @@ aside {
 }
 
 #welcome>div h1 {    
-    font-size: 80px;
+    font-size: 120px;
     margin: 0;
-    color: #942B99; 
-    font-weight: 900;
+    color: white; 
+    /*font-weight: 600;*/
+    font-family: 'Yellowtail', cursive;
 }
 
 #welcome>div h2 {
@@ -143,7 +145,7 @@ aside {
     font-weight: 400;
     text-transform: uppercase;
     margin: 5px 0;
-    color: #181F51;
+    color: white;
 }
 
 #welcome>div .enter, #welcome>div .login, #welcome>div .signup {
@@ -172,6 +174,7 @@ aside {
     font-size: 36px; 
     color: #942B99; 
     margin-top: 2em; 
+    
 }
 
 .about p {
@@ -179,7 +182,7 @@ aside {
 }
 
 .thumb-image{
-    color: #FFA70B;
+    color: white;
     width: 280px; 
     height: 280px;
     position: relative; 
