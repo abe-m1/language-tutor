@@ -11,16 +11,16 @@
           .state('french', {
             url: '/',
             templateUrl: 'components/home/home.html',
-            controller: 'MainCtrl',
-            controllerAs: 'main'
+            controller: 'HomeCtrl',
+            controllerAs: 'home'
             
           })
 
            .state('english', {
             url: '/english',
             templateUrl: 'components/home/home.html',
-            controller: 'MainCtrl',
-            controllerAs: 'main'
+            controller: 'HomeCtrl',
+            controllerAs: 'home'
             
           })
 
