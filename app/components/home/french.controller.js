@@ -10,7 +10,7 @@
     
    console.log('french controller running')
    var vm = this;
-   
+   vm.heading="parlez francais avec Nadia"
   }
 
 
