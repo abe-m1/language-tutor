@@ -2,10 +2,9 @@
   'use strict'
 
   angular
-    .module('TutorApp', ['TutorApp.Controllers',
-                      'TutorApp.Services',
+    .module('TutorApp', ['TutorApp.Controllers',        
                       'TutorApp.Configs',
-                      'TutorApp.Constants',
+                      'ui.router'
                       ])
 
     .run(function() {
