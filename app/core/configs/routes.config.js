@@ -24,6 +24,14 @@
             
           })
 
+          .state('quiz', {
+            url: '/quiz',
+            templateUrl: 'components/quiz/quiz.html',
+            controller: 'QuizCtrl',
+            controllerAs: 'quiz'
+            
+          })
+
           $urlRouterProvider.otherwise('/');
         }
 
