@@ -238,9 +238,9 @@ aside {
     
     height: 200px;
     margin: 40px auto 20px auto;
-    background-image: url('images/contact.png');
+    background-image: url('images/facetime.png');
     background-repeat: no-repeat;
-    background-size: 150px 120px;
+    background-size: 120px 120px;
     background-position: center center;
 }
 
@@ -728,7 +728,7 @@ aside {
 	justify-content: space-around;
 	/*margin-top: -1em;*/
     margin-bottom: 2em;
-    max-width: 1215px;
+    max-width: 1015px;
     margin: 0 auto;
     
 }
@@ -737,7 +737,7 @@ aside {
 
 .card {
 	display: flex;
-	flex: 0 1 calc(50% - .5em);
+	/*flex: 0 1 calc(50% - .5em);*/
 	/*width: calc(33% - 1em);*/
 	margin-bottom: 1em;
     max-width: 280px ; 
@@ -754,7 +754,7 @@ aside {
 	}
 
 	.card {
-	flex: 0 1 calc(33% - 1em);
+	/*flex: 0 1 calc(33% - 1em);*/
 	/*width: calc(33% - 1em);*/
 	/*margin-bottom: 2em;*/
 }
