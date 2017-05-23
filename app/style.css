@@ -117,6 +117,13 @@ aside {
   }
 
 
+  .right img {
+      width: 30px;
+      display: inline-block;
+      margin-right: 7px;
+  }
+
+
 
 /*HOME PAGE*/
 #welcome1 {
@@ -241,16 +248,16 @@ aside {
     
     height: 200px;
     margin: 40px auto 20px auto;
-    background-image: url('images/light-bulb-10.png');
+    background-image: url('images/skype.png');
     background-repeat: no-repeat;
-    background-size: 130px 150px;
+    background-size: 200px 200px;
     background-position: center center;
 }
 
 .thumbnail-phone {
     height: 200px;
     margin: 40px auto 20px auto;
-    background-image: url('images/phone.png');
+    background-image: url('images/iphone.png');
     background-repeat: no-repeat;
     background-size: 150px 150px;
     background-position: center center;
@@ -736,6 +743,9 @@ aside {
     max-width: 280px ; 
     max-height: 280px;  
 }
+
+
+
 }
 
 @media screen and (min-width: 60em) {

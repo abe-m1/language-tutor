@@ -20,9 +20,9 @@
                 <a href="#" class="brand"><img src="images/NB_logo.png" alt=""></a>
     
                 <div class="right">
-                    <a href="#" class="link">English</a>
+                    <a href="#" class="link"><img align="center" src="images/uk.png" alt="">English</a>
                     
-                    <a href="#" class="link">French</a>
+                    <a href="#" class="link"><img align="center" src="images/fr.png" alt="">French</a>
                 </div>
             </nav>
         </header>
@@ -162,19 +162,47 @@
                             <div class="card">
                                 <a href="#">
                                     <figure class="thumbnail">
-                                        <div class="thumb-image" style="background: url('images/bistro.png') center center / cover no-repeat;">
-                                            <div class="gradient" >
-                                                <div class="thumb-text">
-                                                    <h5>Listening</h5>
-                                                    <h6>Subheadline</h6>
-                                                </div> 
-                                            </div>     
-                                        </div>
+                                        <div class="flip-container">
+  <div class="flipper">
+    <div class="front">
+       <div class="thumb-image" style="background: url('images/bistro.png') center center / cover no-repeat;">
+         <div class="gradient" >
+            <div class="thumb-text">
+                <h5>Listening</h5>
+                <h6>Subheadline</h6>
+            </div> 
+        </div>     
+    </div>
+</div>
+    <div class="back"> 
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam neque illum quasi molestiae odit distinctio praesentium, dolores, ex voluptas odio libero velit earum deserunt ea doloremque in provident explicabo fugiat?</p>
+    </div>
+  </div>
+</div>
                                     </figure>                       
                                 </a>
                             </div><!-- .card -->
                     
                 </div>
+
+<div class="flip-container">
+  <div class="flipper">
+    <div class="front">
+       <div class="thumb-image" style="background: url('images/bistro.png') center center / cover no-repeat;">
+         <div class="gradient" >
+            <div class="thumb-text">
+                <h5>Listening</h5>
+                <h6>Subheadline</h6>
+            </div> 
+        </div>     
+    </div>
+</div>
+    <div class="back"> 
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam neque illum quasi molestiae odit distinctio praesentium, dolores, ex voluptas odio libero velit earum deserunt ea doloremque in provident explicabo fugiat?</p>
+    </div>
+  </div>
+</div>
+
 
                 <div class="flex works">
                     <h1 style="font-size: 48px; text-align: center; color: #F9564F">HOW IT WORKS</h1>
@@ -341,3 +369,90 @@ $("div.right").toggleClass("test");
     </script>
     </body>
 </html> 
+
+<style>
+    .flip-container {
+  -webkit-perspective: 1000;
+  -moz-perspective: 1000;
+  -o-perspective: 1000;
+  perspective: 1000;
+
+	/*border: 1px solid #ccc;*/
+}
+
+	.flip-container:hover .flipper,  
+  .flip-container.hover .flipper {
+		-webkit-transform: rotateY(180deg);
+		-moz-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+		transform: rotateY(180deg);
+	}
+
+.flip-container, .front, .back {
+	width: 280px;
+	height: 280px;
+}
+
+.flipper {
+	-webkit-transition: 0.6s;
+	-webkit-transform-style: preserve-3d;
+
+	-moz-transition: 0.6s;
+	-moz-transform-style: preserve-3d;
+  
+  -o-transition: 0.6s;
+	-o-transform-style: preserve-3d;
+
+	transition: 0.6s;
+	transform-style: preserve-3d;
+
+	position: relative;
+}
+
+.front, .back {
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+  -o-backface-visibility: hidden;
+	backface-visibility: hidden;
+
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.front {
+	background: url('images/bistro.png') 0 0 no-repeat;
+	z-index: 2;
+}
+
+.back {
+	-webkit-transform: rotateY(180deg);
+	-moz-transform: rotateY(180deg);
+  -o-transform: rotateY(180deg);
+	transform: rotateY(180deg);
+
+	background: #f8f8f8;
+}
+
+.front .name {
+	font-size: 2em;
+	display: inline-block;
+	background: rgba(33, 33, 33, 0.9);
+	color: #f8f8f8;
+	font-family: Courier;
+	padding: 5px 10px;
+	border-radius: 5px;
+	bottom: 60px;
+	left: 25%;
+	position: absolute;
+	text-shadow: 0.1em 0.1em 0.05em #333;
+
+	-webkit-transform: rotate(-20deg);
+	-moz-transform: rotate(-20deg);
+  -o-transform: rotate(-20deg);
+	transform: rotate(-20deg);
+}
+
+
+
+</style>
