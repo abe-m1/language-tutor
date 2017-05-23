@@ -1,12 +1,12 @@
 (function(module) {
 
   "use strict";
-  var HomrCtrl;
+  var FrenchCtrl;
   HomeCtrl.$inject = [];
 
 
 
-  function HomeCtrl() {
+  function FrenchCtrl() {
     
    console.log('home running')
    var vm = this;
@@ -14,6 +14,6 @@
   }
 
 
-  module.controller('HomeCtrl', HomeCtrl);
+  module.controller('FrenchCtrl', FrenchCtrl);
 
 })(angular.module('TutorApp.Controllers'));
