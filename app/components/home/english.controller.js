@@ -10,6 +10,8 @@
     
    console.log('english running')
    var vm = this;
+
+   vm.heading="learn french with nadia"
    
   }
 
