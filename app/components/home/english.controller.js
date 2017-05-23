@@ -8,7 +8,7 @@
 
   function EnglishCtrl() {
     
-   console.log('home running')
+   console.log('english running')
    var vm = this;
    
   }

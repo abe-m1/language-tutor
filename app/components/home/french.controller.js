@@ -2,13 +2,13 @@
 
   "use strict";
   var FrenchCtrl;
-  HomeCtrl.$inject = [];
+  FrenchCtrl.$inject = [];
 
 
 
   function FrenchCtrl() {
     
-   console.log('home running')
+   console.log('french controller running')
    var vm = this;
    
   }
