@@ -9,8 +9,8 @@
           $stateProvider
 
           .state('french', {
-            url: '/french',
-            templateUrl: 'components/login/login.html',
+            url: '/',
+            templateUrl: 'components/home/home.html',
             controller: 'MainCtrl',
             controllerAs: 'main'
             
@@ -18,7 +18,7 @@
 
            .state('english', {
             url: '/english',
-            templateUrl: 'components/login/login.html',
+            templateUrl: 'components/home/home.html',
             controller: 'MainCtrl',
             controllerAs: 'main'
             
