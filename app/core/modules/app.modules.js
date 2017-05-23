@@ -5,7 +5,7 @@
     .module('TutorApp', ['TutorApp.Controllers',
                       'TutorApp.Services',
                       'TutorApp.Configs',
-                      'YogaApp.Constants',
+                      'TutorApp.Constants',
                       ])
 
     .run(function() {
