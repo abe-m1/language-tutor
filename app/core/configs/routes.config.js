@@ -16,7 +16,13 @@
             
           })
 
-      
+           .state('english', {
+            url: '/english',
+            templateUrl: 'components/login/login.html',
+            controller: 'MainCtrl',
+            controllerAs: 'main'
+            
+          })
 
           $urlRouterProvider.otherwise('/');
         }
