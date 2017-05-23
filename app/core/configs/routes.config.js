@@ -8,19 +8,19 @@
         function routesProvider($stateProvider, $urlRouterProvider) {
           $stateProvider
 
-          .state('french', {
+          .state('english', {
             url: '/',
             templateUrl: 'components/home/home.html',
-            controller: 'HomeCtrl',
-            controllerAs: 'home'
+            controller: 'EnglishCtrl',
+            controllerAs: 'english'
             
           })
 
-           .state('english', {
-            url: '/english',
+           .state('french', {
+            url: '/french',
             templateUrl: 'components/home/home.html',
-            controller: 'HomeCtrl',
-            controllerAs: 'home'
+            controller: 'FrenchCtrl',
+            controllerAs: 'french'
             
           })
 
