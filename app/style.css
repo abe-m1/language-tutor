@@ -801,3 +801,9 @@ aside {
     margin: 5px 0;
     color: white;
 }
+
+
+.method {
+    height: 100vh;
+    background-color: #446A96;
+}
