@@ -32,6 +32,14 @@
             
           })
 
+          .state('staffing', {
+            url: '/staffing',
+            templateUrl: 'components/staffing/staffing.html',
+            // controller: 'StaffCtrl',
+            // controllerAs: 'quiz'
+            
+          })
+
           $urlRouterProvider.otherwise('/');
         }
 
