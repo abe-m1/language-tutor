@@ -52,6 +52,13 @@
              controllerAs: 'quiz'
           })
 
+          .state('quiz.results', {
+            url: '/results',
+            templateUrl: 'components/quiz/quiz-results.html',
+            controller: 'quizCtrl',
+             controllerAs: 'quiz'
+          })
+
         // .state('candidate.softskills.results', {
         //     url: '/results',
         //     templateUrl: 'components/candidate/softskills/softskills-results.html',
