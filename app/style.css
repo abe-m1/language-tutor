@@ -807,3 +807,17 @@ aside {
     height: 100vh;
     background-color: #446A96;
 }
+
+
+
+.modal-body {
+    background-color: black;
+}
+.modal-header {
+    background-color: black;
+    border-bottom: none;
+}
+.modal-footer {
+    background-color: black;
+    border-top: none;
+}
