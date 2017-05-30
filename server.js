@@ -3,6 +3,7 @@ const nodeMailer = require('nodemailer')
 var logger = require('morgan');
 var bodyParser = require('body-parser');
 const dev = require('./dev.js')
+const cors = require('cors')
 var app = express();
 
 
@@ -13,6 +14,8 @@ const port = process.env.PORT || 3000
     app.use(bodyParser.urlencoded({
         extended: false
     }));
+
+app.use(cors())
 
 app.use(express.static('app'));
 
