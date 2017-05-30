@@ -23,6 +23,10 @@ app.get('/', function (req, res, next) {
     res.sendFile('index.html', { root: __dirname });
 });
 
+app.get('/test', function (req, res, next) {
+    res.send('this is a test')
+});
+
 app.post('/mail', function (req, res, next) {
     console.log(req.body)
     //   res.send('hello nono');
