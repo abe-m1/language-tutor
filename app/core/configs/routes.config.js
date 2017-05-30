@@ -48,15 +48,13 @@
         .state('quiz.questions', {
             url: '/questions',
             templateUrl: 'components/quiz/quiz-questions.html',
-            controller: 'quizCtrl',
-             controllerAs: 'quiz'
+            
           })
 
           .state('quiz.results', {
             url: '/results',
             templateUrl: 'components/quiz/quiz-results.html',
-            controller: 'quizCtrl',
-             controllerAs: 'quiz'
+           
           })
 
         // .state('candidate.softskills.results', {

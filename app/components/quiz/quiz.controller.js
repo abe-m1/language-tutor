@@ -22,6 +22,7 @@
      vm.current;
     // vm.answer;
     // vm.details = 0;
+    vm.results
   
 
      vm.manageTest = manageTest;
@@ -34,7 +35,7 @@
     //     //$state.go('candidate.softskills.landing');
     //   }
     //     console.log("activated")
-         for(var i = 0; i < 20; i++) {
+         for(var i = 0; i < 7; i++) {
            vm.box[i] = '';
          }
          vm.current = 0;
@@ -48,7 +49,7 @@
 
      function manageTest(idx) {
        console.log(vm.current == 20)
-       if (vm.current + 1 == 4) {
+       if (vm.current + 1 == 7) {
          addAnswer(idx);
          gradeTest();
        } else {
@@ -214,19 +215,20 @@
   function gradeTest() {
       var a = vm.answers
       var b = vm.box
-    var results = 0
+    vm.results = 0
    
     for (i = 0; i < a.length; i++) { 
       for (j = 0; j < b.length; j++) {
 		
         if (a[i] === b[j]){
-          results++
+          vm.results++
         }
       }
     }
-    console.log('results', results)
+    console.log('results', vm.results)
+    
     $state.go('quiz.results');
-  return results
+  return vm.results
   }
 
 }
