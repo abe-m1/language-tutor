@@ -30,7 +30,8 @@
             <form ng-submit="quiz.manageTest($index)" ng-hide="quiz.current != $index">
                 <h5>{{question.text}} :</h5>
                 <div class="row" id="answerBtnRow">
-                    <button ng-repeat="option in quiz.answerOptions[$index]" type="button" class="btn_round" ng-click="quiz.answer = option">{{option}}</button>
+                    <button ng-repeat="option in quiz.answerOptions[$index]" type="button" class="btn_round" 
+                    ng-click="quiz.answer = option">{{option}}</button>
                 </div>
                 <div id="nextBtn">
                     <button type="submit" ng-disabled="quiz.answer == 0">
