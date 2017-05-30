@@ -24,13 +24,46 @@
             
           })
 
-          .state('quiz', {
-            url: '/quiz',
-            templateUrl: 'components/quiz/quiz.html',
-            controller: 'QuizCtrl',
-            controllerAs: 'quiz'
+        //   .state('quiz', {
+        //     url: '/quiz',
+        //     templateUrl: 'components/quiz/quiz.html',
+        //     // controller: 'QuizCtrl',
+        //     // controllerAs: 'quiz'
             
+        //   })
+
+           .state('quiz', {
+            abstract:true,
+            url: '/quiz',
+            templateUrl: 'components/quiz/quiz-base.html',
+             controller: 'quizCtrl',
+             controllerAs: 'quiz'
           })
+
+        .state('quiz.landing', {
+            url: '/landing',
+            templateUrl: 'components/quiz/quiz-landing.html',
+          })
+
+        .state('quiz.questions', {
+            url: '/questions',
+            templateUrl: 'components/quiz/quiz-questions.html',
+            controller: 'quizCtrl',
+             controllerAs: 'quiz'
+          })
+
+        // .state('candidate.softskills.results', {
+        //     url: '/results',
+        //     templateUrl: 'components/candidate/softskills/softskills-results.html',
+        //   })
+
+        // .state('candidate.softskills.test', {
+        //     url: '/test',
+        //     templateUrl: 'components/candidate/softskills/softskills-questions.html',
+        //   })
+
+
+
 
           .state('staffing', {
             url: '/staffing',

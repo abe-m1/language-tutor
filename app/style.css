@@ -825,3 +825,485 @@ aside {
 .modal-content {
     background-color: black;
 }
+
+
+
+
+
+
+.candidate-softskills {
+  /*RESULTS PAGE*/
+}
+.candidate-softskills .navbar .nav {
+  position: absolute;
+}
+@media all and (max-width: 768px) {
+  .candidate-softskills .navbar .nav {
+    margin: 0px;
+  }
+}
+.candidate-softskills .navbar .nav li {
+  padding: 0;
+}
+.candidate-softskills .navbar .nav li a {
+  color: grey;
+  font-size: 0.8em;
+}
+.candidate-softskills .heading h3 {
+  color: grey;
+  font-family: 'Assistant', sans-serif;
+  font-weight: 300;
+}
+@media all and (max-width: 768px) {
+  .candidate-softskills .heading h3 {
+    visibility: hidden;
+  }
+}
+.candidate-softskills a {
+  font-family: 'Assistant', sans-serif;
+  font-size: 24px;
+  font-weight: 300;
+  color: #4a4a4a;
+}
+.candidate-softskills .marquee {
+  background-color: #73a9fc;
+  padding: 55px;
+  color: white;
+}
+.candidate-softskills .marquee h3 {
+  color: white;
+  font-weight: 300;
+  font-family: 'Assistant', sans-serif;
+}
+.candidate-softskills .marquee h1 {
+  color: white;
+  font-family: 'Assistant', sans-serif;
+  font-size: 3em;
+}
+.candidate-softskills h1 {
+  font-family: 'Assistant', sans-serif;
+  font-weight: bold;
+  font-size: 40px;
+  color: white;
+  text-align: center;
+}
+.candidate-softskills h2 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 25px;
+  font-weight: 500;
+  letter-spacing: 0.4px;
+  text-align: center;
+  color: #73a9fc;
+}
+.candidate-softskills h3 {
+  font-family: 'Assistant', sans-serif;
+  font-size: 30px;
+  color: #4a4a4a;
+  text-align: center;
+}
+.candidate-softskills h4,
+.candidate-softskills li {
+  font-family: 'Assistant', sans-serif;
+  color: #4a4a4a;
+  font-size: 20px;
+  padding-left: 185px;
+  padding-right: 185px;
+}
+.candidate-softskills h5 {
+  font-family: 'Assistant', sans-serif;
+  font-size: 50px;
+  font-weight: 300;
+  color: #4a4a4a !important;
+  margin-left: 100px;
+}
+.candidate-softskills h6 {
+  font-family: 'Assistant', sans-serif;
+  font-size: 40px;
+  font-weight: 300;
+  text-align: center;
+  color: #73a9fc;
+}
+.candidate-softskills #bkgrd_img {
+  width: 100%;
+  background-image: url("../images/softskills_img.jpeg");
+  background-size: cover;
+  background-position: center;
+}
+.candidate-softskills #transparency {
+  opacity: 1;
+  border-radius: 1px;
+  background-color: rgba(238, 235, 251, 0.82);
+}
+.candidate-softskills #textBox {
+  border-radius: 6px;
+  border: solid 4px #73a9fc;
+  margin-top: 67px;
+  margin-left: 163px;
+  margin-right: 163px;
+}
+.candidate-softskills #textBox h2 {
+  color: #73a9fc;
+  font-family: 'Alegreya Sans', sans-serif;
+  font-weight: bold;
+}
+.candidate-softskills #bodyCopy {
+  margin-top: 67px;
+  color: grey;
+  font-size: 1.52em;
+  font-family: 'Assistant', sans-serif;
+}
+.candidate-softskills .assement-heading {
+  font-size: 1.5em;
+  color: grey;
+}
+.candidate-softskills ul {
+  list-style: none;
+}
+.candidate-softskills ul li svg {
+  width: 15px;
+  height: 15px;
+  margin-right: 12px;
+}
+.candidate-softskills #button {
+  text-align: center;
+  /*margin-bottom: 83px;*/
+}
+.candidate-softskills #button button {
+  width: auto;
+  background: #73a9fc;
+  font-size: 1.7em;
+  padding: 15px 25px;
+}
+.candidate-softskills .btn {
+  border-radius: 100px;
+  background-color: #73a9fc;
+  font-family: 'Assistant', sans-serif;
+  font-size: 25px;
+  font-weight: 600;
+  letter-spacing: -0.5px;
+  color: #ffffff;
+  text-align: center;
+}
+.candidate-softskills #answerBtnRow {
+  text-align: center;
+  /*padding-top: 50px;*/
+}
+.candidate-softskills #submit {
+  text-align: center;
+  color: #787474;
+  width: 80px;
+  height: 80px;
+  padding: 10px 10px;
+  font-size: 50px;
+  line-height: 1.33;
+  border: none;
+  border-radius: 40px;
+  background-color: #d8d8d8;
+  margin: 18px;
+}
+.candidate-softskills h1 {
+  font-family: 'Assistant', sans-serif;
+  font-size: 25px;
+  color: #837f7f;
+  text-align: center;
+}
+.candidate-softskills h2 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  color: #837f7f;
+}
+.candidate-softskills h3 {
+  font-family: 'Assistant', sans-serif;
+  font-size: 30px;
+  color: #4a4a4a;
+  text-align: center;
+}
+.candidate-softskills h4 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 35px;
+  color: #ffffff;
+}
+.candidate-softskills h5,
+.candidate-softskills a {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  color: #ffffff;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  margin: 2px;
+}
+.candidate-softskills h6 {
+  font-family: 'Assistant', sans-serif;
+  font-size: 40px;
+  font-weight: 300;
+  text-align: center;
+  color: #73a9fc;
+}
+.candidate-softskills #scoreBars {
+  margin: auto;
+  width: 100%;
+}
+.candidate-softskills .resultsContainer {
+  background-color: #73a9fc;
+  margin-left: 25px;
+  vertical-align: bottom;
+  text-align: center;
+  height: 200px;
+}
+.candidate-softskills .result {
+  padding-top: 76px;
+}
+.candidate-softskills .resultPerc {
+  border-style: solid;
+  border-color: white;
+  border-width: 1px;
+  border-radius: 5px;
+  width: 30%;
+  margin: 0 auto;
+}
+.candidate-softskills .resultBar {
+  background-color: #d8d8d8;
+}
+.candidate-softskills #resultsTextBox {
+  background-color: #deeafe;
+  margin: 25px;
+}
+.candidate-softskills #submitBtn {
+  text-align: center;
+}
+.candidate-softskills .btn {
+  background-color: #4a4a4a;
+  border-radius: 100px;
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+  display: inline-block;
+  padding: 15px;
+  width: 200px;
+  margin: 40px auto;
+}
+.candidate-softskills .progress {
+  float: left;
+  width: 100%;
+  margin: 20px auto;
+  height: 38px;
+  border-radius: 25px;
+  box-shadow: none;
+}
+.candidate-softskills .progress .progress-bar {
+  background-color: #73a9fc;
+  box-shadow: none;
+  border-radius: 0 25px 25px 0;
+}
+.candidate-softskills.test h5 {
+  font-size: 2.3em;
+  font-family: 'Assistant', sans-serif;
+}
+.candidate-softskills.test .btn_round {
+  display: inline-block;
+  font-family: 'Assistant', sans-serif;
+  text-align: center;
+  color: #787474;
+  width: 138px;
+  height: 138px;
+  padding: 10px 16px;
+  font-size: 1.2em;
+  font-weight: 600;
+  line-height: 1.33;
+  border: none;
+  border-radius: 50%;
+  background-color: #deeafe;
+  margin: 2.5em;
+  border: 4px solid #deeafe;
+}
+.candidate-softskills.test .btn_round:hover {
+  border: solid 4px #73a9fc;
+}
+.candidate-softskills.test .btn_round:focus {
+  background-color: #73a9fc;
+  border: solid 4px #73a9fc;
+  outline: none;
+  color: #fff;
+}
+.candidate-softskills.test #nextBtn {
+  /*margin-top: 5em;*/
+  float: right;
+  margin-right: 50px;
+}
+.candidate-softskills.test #nextBtn button {
+  border-radius: 50%;
+  background-color: #d8d8d8;
+  border: none;
+  outline: 0;
+  width: 80px;
+  height: 80px;
+  cursor: pointer;
+}
+.candidate-softskills.test #nextBtn button svg {
+  width: 50px;
+  height: 50px;
+  vertical-align: middle;
+  pointer-events: none;
+}
+
+.softskills-result-content {
+  margin-top: 55px;
+}
+.softskills-result-content .score-cards {
+  margin-top: 40px;
+  text-align: center;
+}
+.softskills-result-content .score-cards:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.softskills-result-content .score-card {
+  display: inline-block;
+  width: 208px;
+  margin: 30px 20px;
+}
+.softskills-result-content .score-card .title {
+  text-align: center;
+  font-family: Assistant;
+  font-size: 25px;
+  font-weight: 500;
+  color: #837f7f;
+}
+.softskills-result-content .score-card .card {
+  position: relative;
+  margin-top: 22px;
+  width: 100%;
+  height: 208px;
+  border-radius: 4px;
+  background-color: #d8d8d8;
+}
+.softskills-result-content .score-card .card.active:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: calc( 50% - 8px);
+  z-index: 10000;
+  border-bottom: 8px solid #fff;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+}
+.softskills-result-content .score-card .card .content {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 10px;
+  color: #ffffff;
+  text-align: center;
+  z-index: 1;
+}
+.softskills-result-content .score-card .card .content .level {
+  font-family: Assistant;
+  font-size: 35px;
+  font-weight: bold;
+}
+.softskills-result-content .score-card .card .content .score {
+  text-align: center;
+  border-radius: 5px;
+  border: solid 1px #ffffff;
+  font-family: AlegreyaSans;
+  font-size: 20px;
+  padding: 0 10px;
+  margin-top: 20px;
+  display: inline-block;
+}
+.softskills-result-content .score-card .card .content .detail {
+  font-family: SourceSansPro;
+  font-size: 18px;
+  color: #fffbf8;
+  margin-top: 5px;
+}
+.softskills-result-content .score-card .card .score-progress {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 88%;
+  border-radius: 4px;
+  background-color: #73a9fc;
+}
+.softskills-result-content .score-detail {
+  position: relative;
+  width: 100%;
+  border-radius: 5px;
+  background-color: #deeafe;
+  padding: 42px 45px;
+  max-width: 1220px;
+  margin: auto;
+}
+.softskills-result-content .score-detail .content {
+  padding-right: 40px;
+}
+.softskills-result-content .score-detail .title {
+  font-family: Roboto;
+  font-size: 20px;
+  color: #837f7f;
+  text-transform: uppercase;
+  margin-bottom: 16px;
+}
+.softskills-result-content .score-detail p {
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 100;
+  line-height: 1.39;
+  color: #4a4a4a;
+  margin-bottom: 40px;
+}
+.softskills-result-content .score-detail .diagram {
+  position: relative;
+  width: 100%;
+  padding-bottom: 100%;
+  float: right;
+}
+.softskills-result-content .score-detail .diagram .content-wrap {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #DDD;
+}
+.softskills-result-content .score-detail .diagram .content-wrap img {
+  width: 100%;
+  height: 100%;
+}
+
+@media all and (min-width: 1280px) {
+  .softskills-result-content .container {
+    min-width: 1264px;
+    width: 85%;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .candidate-softskills #textBox {
+    margin: 2em;
+  }
+  .candidate-softskills #transparency {
+    padding: 20px 0;
+  }
+  .candidate-softskills .marquee h3 {
+    font-size: 1.3em;
+  }
+  .candidate-softskills .marquee h1 {
+    font-size: 1.8em;
+  }
+  .candidate-softskills #bodyCopy {
+    padding: 0 2em;
+  }
+  .candidate-softskills h4 {
+    padding: 0 2em;
+  }
+  .candidate-softskills li {
+    padding: 10px 2em;
+  }
+  .candidate-softskills #bkgrd_img {
+    background-position: right center;
+  }
+}

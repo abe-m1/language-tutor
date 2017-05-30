@@ -1,0 +1,43 @@
+<div class="candidate-softskills test">
+    <nav class="navbar navbar-default">
+        <span style="float: right"><a ui-sref="english">back to home page</a></span>
+        <div class="container-fluid">
+
+            <!--<ul class="nav navbar-nav">
+                <li>
+                    <a ui-sref="english">Cancel & Later</a>
+                </li>
+            </ul>-->
+            
+            <div class="heading">
+                 
+                <h3 style="clear: both" > French Test  - Question {{quiz.current + 1}}</h3>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+       
+        <div class="progress">
+            <div class="progress-bar" role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100" style="width: {{quiz.current * 15}}%;">
+                <span class="sr-only">5% Complete</span>
+            </div>
+        </div>
+
+        <!--     I think this should work to make this cycle  http://jsfiddle.net/c6RZK/ -->
+
+        <div ng-repeat="question in quiz.questions">
+            <form ng-submit="quiz.manageTest($index)" ng-hide="quiz.current != $index">
+                <h5>{{question.text}} :</h5>
+                <div class="row" id="answerBtnRow">
+                    <button ng-repeat="option in quiz.answerOptions[$index]" type="button" class="btn_round" ng-click="quiz.answer = option">{{option}}</button>
+                </div>
+                <div id="nextBtn">
+                    <button type="submit" ng-disabled="quiz.answer == 0">
+                       Submit
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
