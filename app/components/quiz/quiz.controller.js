@@ -176,12 +176,12 @@
       
     // }
 
-    vm.answers = ['vous êtes', 'serveuse', 'la', 'mon / sa', 'le', 'trois heures et quart']
+    vm.answers = ['vous êtes', 'serveuse', 'la', 'Quelle est','mon / sa', 'le', 'trois heures et quart']
 
-    vm.answerOptions = [ ['tu es',' ils sont', 'on est', 'vous êtes'], 
+    vm.answerOptions = [ ['tu es','ils sont', 'on est', 'vous êtes'], 
                          ['serveur', 'serveuse', 'service', 'sert'],
                         ['du', 'de', 'la', 'l’'],
-                        [' Il y a', 'Quelle est', 'Quel est', 'Quels sont'],
+                        ['Il y a', 'Quelle est', 'Quel est', 'Quels sont'],
                         ['mon / son', 'mon / sa', "ton / t'", 'mon / ma' ],
                         ['au', 'du', 'le', 'de le'],
                         ['trois heures moins le quart', ' trois heures plus le quart', 'trois heures et quart', 'trois heures et demi']
