@@ -24,7 +24,7 @@ app.get('/', function (req, res, next) {
 });
 
 app.get('/test', function (req, res, next) {
-    res.send('this is a test')
+    res.send({ message: 'thank you for visiting app'})
 });
 
 app.post('/mail', function (req, res, next) {
