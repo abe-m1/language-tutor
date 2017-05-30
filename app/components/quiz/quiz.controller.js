@@ -1,7 +1,7 @@
 (function(module) {
-  quizCtrl.$inject = [];
+  quizCtrl.$inject = ['$state'];
 
-  function quizCtrl() {
+  function quizCtrl($state) {
     var vm = this;
  
     // // Constants Bindings
@@ -26,6 +26,7 @@
 
      vm.manageTest = manageTest;
     //  vm.saveScore = saveScore;
+    vm.gradeTest = gradeTest
 
     // // SET DEFAULTS
      function activate() {
@@ -47,9 +48,9 @@
 
      function manageTest(idx) {
        console.log(vm.current == 20)
-       if (vm.current + 1 == 20) {
+       if (vm.current + 1 == 4) {
          addAnswer(idx);
-         submitForm();
+         gradeTest();
        } else {
          addAnswer(idx);
        }
@@ -63,6 +64,11 @@
        }
        console.log("stuff", vm.box, vm.answer, vm.current)
      }
+
+
+
+
+    
 
     // function submitForm() {
     //   console.log('111done with the test!', vm.box);
@@ -168,13 +174,16 @@
     //   $state.go('candidate.dashboard.home')
       
     // }
+
+    vm.answers = ['vous êtes', 'serveuse', 'la', 'mon / sa', 'le', 'trois heures et quart']
+
     vm.answerOptions = [ ['tu es',' ils sont', 'on est', 'vous êtes'], 
                          ['serveur', 'serveuse', 'service', 'sert'],
-                        ['du', 'de', ' la', 'l’'],
+                        ['du', 'de', 'la', 'l’'],
                         [' Il y a', 'Quelle est', 'Quel est', 'Quels sont'],
                         ['mon / son', 'mon / sa', "ton / t'", 'mon / ma' ],
                         ['au', 'du', 'le', 'de le'],
-                        ['trois heures moins le quart', ' trois heures plus le quart', ' trois heures et quart', 'trois heures et demi']
+                        ['trois heures moins le quart', ' trois heures plus le quart', 'trois heures et quart', 'trois heures et demi']
                          
                          
                          ]
@@ -202,7 +211,25 @@
 		// { question: 20, text: 'I do not have a good imagination'}
 	]
 
-};
+  function gradeTest() {
+      var a = vm.answers
+      var b = vm.box
+    var results = 0
+   
+    for (i = 0; i < a.length; i++) { 
+      for (j = 0; j < b.length; j++) {
+		
+        if (a[i] === b[j]){
+          results++
+        }
+      }
+    }
+    console.log('results', results)
+    $state.go('quiz.results');
+  return results
+  }
+
+}
 
 
   module.controller('quizCtrl', quizCtrl);
