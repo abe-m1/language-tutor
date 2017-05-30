@@ -267,10 +267,10 @@
                                 <div > 
                                     <div id="form"> 
                                         <div id="form-center"  >   
-                                        <input type="text" class="field" placeholder="Name" /><br>
-                                        <input type="email" class="field" placeholder="E-mail" />
-                                        <textarea id="message" class="field" placeholder="Message"></textarea>
-                                        <input id="submit" type="submit" value="Send">
+                                        <input type="text" class="field" placeholder="Name" ng-model="english.name" /><br>
+                                        <input type="email" class="field" placeholder="E-mail" ng-model="english.email"/>
+                                        <textarea id="message" class="field" placeholder="Message" ng-model="english.message"></textarea>
+                                        <input id="submit" type="submit" value="Send" ng-click="english.sendMail()">
                                         </div  > 
                                     </div>  
                                 </div>
