@@ -821,3 +821,7 @@ aside {
     background-color: black;
     border-top: none;
 }
+
+.modal-content {
+    background-color: black;
+}
