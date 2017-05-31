@@ -23,7 +23,7 @@ app.get('/', function (req, res, next) {
     res.sendFile('index.html', { root: __dirname });
 });
 
-app.get('/test/hello', function (req, res, next) {
+app.get('/test', function (req, res, next) {
     res.send({ message: 'thank you for visiting app'})
 });
 

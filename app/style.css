@@ -213,6 +213,7 @@ aside {
     bottom:15%;
     width:100%;
     text-align:center;
+    
 }
 
 .thumb-text h5 {
@@ -614,6 +615,8 @@ aside {
         margin-right: 20px;
         margin-left: 20px;
     }
+
+
 
     .works .thumbnail {
     width: 30%;
