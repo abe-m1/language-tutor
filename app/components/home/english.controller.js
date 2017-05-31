@@ -11,7 +11,7 @@
    console.log('english running')
    var vm = this;
 
-   vm.heading="learn french with nadia"
+   vm.heading="learn french with us"
 
 
    vm.sendMail = sendMail
