@@ -235,33 +235,57 @@ aside {
     
 }
 
+.thumbnail-yellow {
+    
+     height: 170px;
+    width: 170px;
+    margin: 40px auto 20px auto;
+    background-image: url('images/light-bulb-yellow.png');
+    background-repeat: no-repeat;
+    /*background-size: 80px 80px;*/
+    background-position: center center;
+    border: 2px solid #979797;
+    border-radius: 50%;
+}
+
+
 .thumbnail-contact {
     
-    height: 200px;
+     height: 170px;
+    width: 170px;
     margin: 40px auto 20px auto;
-    background-image: url('images/facetime.png');
+    background-image: url('images/light-bulb-orange.png');
     background-repeat: no-repeat;
-    background-size: 120px 120px;
+    /*background-size: 80px 80px;*/
     background-position: center center;
+    border: 2px solid #979797;
+    border-radius: 50%;
 }
 
 .thumbnail-light {
     
-    height: 200px;
+    height: 170px;
+    width: 170px;
     margin: 40px auto 20px auto;
-    background-image: url('images/skype.png');
+    background-image: url('images/light-bulb-green.png');
     background-repeat: no-repeat;
-    background-size: 200px 200px;
+    /*background-size: 120px 120px;*/
     background-position: center center;
+    border: 2px solid #979797;
+    border-radius: 50%;
+    
 }
 
 .thumbnail-phone {
-    height: 200px;
+    height: 170px;
+    width: 170px;
     margin: 40px auto 20px auto;
-    background-image: url('images/iphone.png');
+    background-image: url('images/light-bulb-pink.png');
     background-repeat: no-repeat;
-    background-size: 150px 150px;
+    /*background-size: 120px 120px;*/
     background-position: center center;
+    border: 2px solid #979797;
+    border-radius: 50%;
 }
 
 .card2{
@@ -778,13 +802,13 @@ aside {
     margin: 0 auto;
     text-align: center;
     position: relative;
-    padding-top: 15%;
+    padding-top: 5%;
     height: 100%;
     
 }
 
 #city>div h1 {    
-    font-size: 90px;
+    font-size: 80px;
     margin: 0;
     color: white; 
     /*font-weight: 600;*/
@@ -793,6 +817,8 @@ aside {
     display: inline-block;
     padding-left: 10px;
     padding-right: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 #city>div h2 {
@@ -801,13 +827,18 @@ aside {
     letter-spacing: 2.4px;
     font-weight: 400;
     text-transform: uppercase;
-    margin: 5px 0;
+    margin: 25px 0;
     color: white;
 }
 
 
 .method {
     height: 100vh;
+    background-color: #446A96;
+}
+
+.method1 {
+    /*height: 100vh;*/
     background-color: #446A96;
 }
 
@@ -1309,4 +1340,67 @@ aside {
   .candidate-softskills #bkgrd_img {
     background-position: right center;
   }
+}
+
+
+.staff-card {
+ flex: 1 1 100px;
+ order: 1;
+
+
+ 
+    /*padding: 24px;*/
+}
+
+.staffing-interest {
+    color: white;
+    background-color: #446A96;
+    margin: 0px auto 20px;
+    padding: 10px;
+    border: 0;
+    padding: 14px 46px;
+    font-size: 1.2em;
+    margin: 10px;
+    width: 255px;
+    
+}
+
+.staffing-email {
+    color: white;
+    background-color: #7ED321;
+    margin: 0px auto 20px;
+    padding: 10px;
+    border: 0;
+    padding: 14px 46px;
+    font-size: 1.2em;
+    margin: 10px;
+    width: 255px;
+    
+}
+
+
+
+.staffing-content{
+    padding: 1.4em;
+    text-align: center;
+    
+}
+
+.staffing-content h3{
+    display: inline-block;
+    margin-top: 0;
+    margin-bottom: .5em;
+    font-weight: normal;
+    text-align: center; 
+    color: white;
+    border-bottom:2px dotted #979797;
+    
+}
+
+.staffing-content p{
+    font-size: 95%;
+    color: #7697BE;
+    text-align: center; 
+    padding-left: 20px;
+    padding-right: 20px;
 }
