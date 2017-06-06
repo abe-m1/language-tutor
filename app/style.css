@@ -325,7 +325,8 @@ aside {
 /*FOOTER*/
 
 #footer{
-    background-color:#3d4144;
+    background-color:#585858;
+    height: 500px;
     }
 
 #footer>div{
@@ -333,7 +334,7 @@ aside {
     display:flex;
     max-width:1060px;
     margin:0 auto;
-    padding:80px 20px;
+    padding:20px 20px;
     color:#fff;
 }
 
@@ -1403,4 +1404,44 @@ aside {
     text-align: center; 
     padding-left: 20px;
     padding-right: 20px;
+}
+
+
+
+
+.talkbubble {
+  position: relative;
+  width: 300px;
+  height: 125px;
+  
+  padding: 10px;
+  border-radius: 5px;
+  border: solid #6F6D6D;
+  background: #6F6D6D;
+}
+
+.talkbubble:before {
+  content:"";
+  position: absolute;
+  right: 100%;
+  top: 26px;
+  width: 0;
+  height: 0;
+  
+  border-top: 20px solid transparent;
+  border-right: 46px solid #6F6D6D;
+  /*border-bottom: 13px solid transparent;*/
+}
+
+
+
+.img-circular{
+ width: 120px;
+ height: 150px;
+ background-image: url('images/nono.png');
+ background-size: cover;
+ display: block;
+ border-radius: 100px;
+ -webkit-border-radius: 100px;
+ -moz-border-radius: 100px;
 }
