@@ -288,6 +288,46 @@ aside {
     border-radius: 50%;
 }
 
+
+.thumbnail-1 {
+    
+     height: 170px;
+    width: 170px;
+    margin: 40px auto 20px auto;
+    background-image: url('images/facetime.png');
+    background-repeat: no-repeat;
+    background-size: 80px 80px;
+    background-position: center center;
+    border: 2px solid #979797;
+    border-radius: 50%;
+}
+
+.thumbnail-2 {
+    
+    height: 170px;
+    width: 170px;
+    margin: 40px auto 20px auto;
+    background-image: url('images/skype.png');
+    background-repeat: no-repeat;
+    background-size: 120px 120px;
+    background-position: center center;
+    border: 2px solid #979797;
+    border-radius: 50%;
+    
+}
+
+.thumbnail-3 {
+    height: 170px;
+    width: 170px;
+    margin: 40px auto 20px auto;
+    background-image: url('images/phone.png');
+    background-repeat: no-repeat;
+    background-size: 100px 100px;
+    background-position: center center;
+    border: 2px solid #979797;
+    border-radius: 50%;
+}
+
 .card2{
     background: white;
     margin-bottom: 2em;
