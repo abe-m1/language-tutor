@@ -8,20 +8,19 @@
                 <a href="#" class="brand"><img src="images/bonmot1.png" alt=""></a>
     
                 <div class="right">
-                    <a ui-sref="english" class="link"><img align="center" src="images/uk.png" alt="">English</a>
-                    
-                    <a ui-sref="french"  class="link"><img align="center" src="images/fr.png" alt="">French</a>
+                    <a ng-click="english.language('english')" class="link"><img align="center" src="images/uk.png" alt="">English</a>
+                    <a ng-click="english.language('french')"  class="link"><img align="center" src="images/fr.png" alt="">French</a>
                 </div>
             </nav>
         </header>
     
-        
+                 {{english.language}}
          
                 <div >
                     <div id="welcome">
                         <div>
                             <!--<h1>Learn French with Nadia</h1>-->
-                            <h1>{{english.heading || french.heading}} </h1>
+                            <h1>{{english.heading}} </h1>
                             <h2 >learn the right way</h2>
                              <a style="color:white" href="#pfk" data-toggle="modal" class="underline-color-white"><p class="carousel-image1" >Click to watch a short video</p><span class="video-button" >
         </span></a>
@@ -39,8 +38,8 @@
                 <div  class="flex about" id="p2">
                     
                         <h1>LEARN FRENCH THE RIGHT WAY</h1>
-                        <p>do eiusmod tempor incididunt ut labore et dolore 
-                            <br>laboris nisi ut aliquip ex.
+                        <p>come learn french with us, 
+                            <br>will will take your goals and make it a reality.
                         </p>
                         <p >Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.
                             <br>et quasi architecto beatae vitae dicta sunt explicabo.
@@ -249,7 +248,7 @@
                     </div>
                     <div class="signup" style="padding: 10px;flex: 1; margin-bottom: 80px">
                                   <!--<iframe src="https://player.vimeo.com/video/219455966" width="240" height="431" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> -->
-                                  <iframe src="https://player.vimeo.com/video/219792002" width="600" height="322" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                                  <iframe src="https://player.vimeo.com/video/224494199" width="600" height="322" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
                     </div>
                     </div>
                    
@@ -363,7 +362,7 @@
             <!-- <div class="videoWrapper"> -->
                 <!--<iframe id="video" src="https://player.vimeo.com/video/160045544?api=1?title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>-->
                   <!--<iframe src="https://player.vimeo.com/video/219455966" width="240" height="431" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>    -->
-                  <iframe  src="https://player.vimeo.com/video/219792002" width="550" height="362" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                  <iframe  src="https://player.vimeo.com/video/224494199" width="550" height="362" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
             <!-- </div> -->
         </div>
         <div class="modal-footer">
@@ -376,5 +375,3 @@
            
     </div>      
 </div>
-
-    
