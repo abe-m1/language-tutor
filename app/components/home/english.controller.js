@@ -2,11 +2,11 @@
 
   "use strict";
   var EnglishCtrl;
-  EnglishCtrl.$inject = ['$http', 'ENGLISH_CONTENT'];
+  EnglishCtrl.$inject = ['$http', 'ENGLISH_CONTENT', 'FRENCH_CONTENT'];
 
 
 
-  function EnglishCtrl($http, ENGLISH_CONTENT) {
+  function EnglishCtrl($http, ENGLISH_CONTENT, FRENCH_CONTENT) {
     
    console.log('english running')
    var vm = this;
@@ -16,10 +16,6 @@
  
 
 
-
-   vm.fr = {}
-   vm.fr.heading = "parlez francais avec nous"
-   vm.fr.title = "Apprendre le bon chemin"
 
     vm.content = ENGLISH_CONTENT;
 
@@ -32,7 +28,7 @@
    } 
    if (param === 'french'){
      console.log('french')
-    vm.content = vm.fr
+    vm.content = FRENCH_CONTENT
    }
    };
    
