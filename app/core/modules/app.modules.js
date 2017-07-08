@@ -4,6 +4,7 @@
   angular
     .module('TutorApp', ['TutorApp.Controllers',        
                       'TutorApp.Configs',
+                      'TutorApp.Constants',
                       'ui.router'
                       ])
 
