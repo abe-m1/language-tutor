@@ -1477,7 +1477,7 @@ aside {
 
 .img-circular{
  width: 120px;
- height: 150px;
+ height: 120px;
  background-image: url('images/nono.png');
  background-size: cover;
  display: block;

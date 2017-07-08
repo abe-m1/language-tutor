@@ -11,21 +11,29 @@
    console.log('english running')
    var vm = this;
    vm.language = language
+  
    
    vm.heading="learn french with us"
    vm.eng = {}
    vm.eng.heading = "learn french with us"
    vm.eng.title = "learning is fun"
 
+   vm.fr = {}
+   vm.fr.heading = "parlez francais avec nous"
+   vm.fr.title = "Apprendre le bon chemin"
+
+   vm.content = vm.eng;
+
    function language(param){
      console.log(param)
      if (param === 'english'){
      console.log('english')
-    vm.heading= vm.eng.title
+    // vm.heading= vm.eng.title
+    vm.content= vm.eng
    } 
    if (param === 'french'){
      console.log('french')
-    vm.heading="parlez francais avec nous"
+    vm.content = vm.fr
    }
    };
    
