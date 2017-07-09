@@ -8,7 +8,7 @@
     video : "Click to watch a short video",
     schedule: "Schedule a class",
     action: "Learn french with our method",
-    details: "We help our students achieve their goals and bring them closer to fluency in French. We combine language lessons with activitiesthat combine french culture and lifestyle to provide a deeper learning experience",     
+    details: "We help our students achieve their goals and bring them closer to fluency in French. We combine language lessons with activities that combine french culture and lifestyle to provide a deeper learning experience",     
     conversation: "Conversation",
     conversation_sub: "Conversation",
     conversation_benefit: "How comfortable are you starting a conversation with a native french speaker. Let us give you the confidence to open up new possiblilities for you",
@@ -27,7 +27,10 @@
     listening: "Listening",
     listening_sub: "écoute",
     listening_benefit: "Listening is a vital skill. We can improve your listening comprehension , expanding your ability to watch french films and tv shows",
-    lets_start: "LET'S START LEARNING!"
+    lets_start: "LET'S START LEARNING!",
+    facetime: "Want to learn on the go. We can teach you via FaceTime.",
+    skype: "Skype is the preferred method of teaching. We provide whiteboard examples, show interactive clips and provide a rich immersive environment.",
+    phone: "Don’t have access to a smartphone or a computer. Don’t worry we can teach you by phone.",
 }
 )
 
@@ -57,7 +60,12 @@
     listening_sub: "Listening",
     listening: "écoute",
     listening_benefit: "L'écoute est une compétence essentielle. Nous pouvons améliorer votre compréhension auditive, élargir votre capacité à regarder des films et des émissions de télévision en français",
-    lets_start: "Commençons à apprendre!"
+    lets_start: "Commençons à apprendre!",
+    acetime: "Vous voulez apprendre sur la route. Nous pouvons vous apprendre via FaceTime.",
+    skype: "Skype est la méthode d'enseignement préférée. Nous fournissons des exemples de tableau blanc, montrons des clips interactifs et fournissons un environnement immersif riche.",
+    phone: "N'a pas accès à un smartphone ou à un ordinateur. Ne vous inquiétez pas, nous pouvons vous apprendre par téléphone.",
+
+    
 }
 )
 
