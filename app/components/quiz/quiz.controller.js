@@ -176,7 +176,7 @@
       
     // }
 
-    vm.answers = ['vous êtes', 'serveuse', 'la', 'Quelle est','mon / sa', 'le', 'trois heures et quart', 'répondez', 'aurait arrivé', 'allant', 'viendra', 'lui', 'sois', 'viendra', 'trouvé', 'se', 'leur', 'parties', 'les', 'sommes']
+    vm.answers = ['vous êtes', 'serveuse', 'la', 'Quelle est','mon / son', 'du', 'trois heures et quart', 'répondez', 'serait arrivé', 'allant', 'vienne', 'le', 'sois', 'viendrait', 'trouvé', 'se', 'leur', 'parties', 'les', 'sommes']
 
     vm.answerOptions = [ ['tu es','ils sont', 'on est', 'vous êtes'], 
                          ['serveur', 'serveuse', 'service', 'sert'],
