@@ -35,7 +35,7 @@
     //     //$state.go('candidate.softskills.landing');
     //   }
     //     console.log("activated")
-         for(var i = 0; i < 7; i++) {
+         for(var i = 0; i < 20; i++) {
            vm.box[i] = '';
          }
          vm.current = 0;
@@ -49,7 +49,7 @@
 
      function manageTest(idx) {
        console.log(vm.current == 20)
-       if (vm.current + 1 == 7) {
+       if (vm.current + 1 == 20) {
          addAnswer(idx);
          gradeTest();
        } else {
@@ -176,7 +176,7 @@
       
     // }
 
-    vm.answers = ['vous êtes', 'serveuse', 'la', 'Quelle est','mon / sa', 'le', 'trois heures et quart']
+    vm.answers = ['vous êtes', 'serveuse', 'la', 'Quelle est','mon / sa', 'le', 'trois heures et quart', 'répondez', 'aurait arrivé', 'allant', 'viendra', 'lui', 'sois', 'viendra', 'trouvé', 'se', 'leur', 'parties', 'les', 'sommes']
 
     vm.answerOptions = [ ['tu es','ils sont', 'on est', 'vous êtes'], 
                          ['serveur', 'serveuse', 'service', 'sert'],
@@ -184,10 +184,22 @@
                         ['Il y a', 'Quelle est', 'Quel est', 'Quels sont'],
                         ['mon / son', 'mon / sa', "ton / t'", 'mon / ma' ],
                         ['au', 'du', 'le', 'de le'],
-                        ['trois heures moins le quart', ' trois heures plus le quart', 'trois heures et quart', 'trois heures et demi']
-                         
-                         
-                         ]
+                        ['trois heures moins le quart', ' trois heures plus le quart', 'trois heures et quart', 'trois heures et demi'],
+                        ['répondez','réponds','répondre', 'répond'],
+                        ['serait arrivé', 'aurait arrivé', 'arriverait', 'est arrivé'],
+                        ['allait', 'aller', 'allante', 'allant'],
+                        ['venira', 'viendra', 'vient', 'vienne'],
+                        ['lui', 'elle' , 'le', 'la'],
+                        ['sois', 'suis' ,'soie', 'soit'],
+                        ['vient', 'viendra', 'viendrait', 'venait'],
+                        ['trouvé', 'trouver', 'trouvions', 'trouvaient'],
+                        ['sont', 'se', 'leur', 'les'],
+                        ['leur', 'les', 'eux', 'lui'],
+                        ['parti', 'parties', 'partis', 'partie'],
+                        ['les', 'l’', 'la', 'le'],
+                        ['sont', 'suis', 'est', 'sommes']
+                        
+                      ]
 
      vm.questions = [
 		{ question: 1, text: 'Sélectionnez le mot adéquat pour compléter la phrase suivante: Bonjour monsieur, ______________ le journaliste ?'},
@@ -197,19 +209,19 @@
 		{ question: 5, text: 'Sélectionnez le mot adéquat pour compléter la phrase suivante: Je te présente ________ frère et ________ amie.'},
 		{ question: 6, text: 'Sélectionnez le mot adéquat pour compléter la phrase suivante: Est-ce que tu as fait ________ tennis hier ?'},
 		{ question: 7, text: 'Sélectionnez le mot adéquat pour compléter la phrase suivante: Il est ____(15h15)________.'},
-		// { question: 8, text: 'I often forget to put things back in their proper place'},
-		// { question: 9, text: 'I am relaxed most of the time'},
-		// { question: 10, text: 'I am not interested in abstract ideas'},
-		// { question: 11, text: 'I talk to a lot of different people at parties'},
-		// { question: 12, text: 'I feel others’ emotions'},
-		// { question: 13, text: 'I like keeping my things in order'},
-		// { question: 14, text: 'I get upset easily'},
-		// { question: 15, text: 'I have difficulty understanding abstract ideas'},
-		// { question: 16, text: 'I keep in the background'},
-		// { question: 17, text: 'I am not really interested in others'},
-		// { question: 18, text: 'I dont mind keeping things a bit messy'},
-		// { question: 19, text: 'I seldom feel blue'},
-		// { question: 20, text: 'I do not have a good imagination'}
+		{ question: 8, text: 'Sélectionnez le mot adéquat pour compléter la phrase suivante:  Brigitte, s’il vous plaît, ______ au téléphone pour moi.'},
+    { question: 9, text: 'Sélectionnez le mot adéquat pour compléter la phrase suivante: Si Michel avait pu prendre le train de midi, il ______ à temps pour la réunion ce soir.'},
+    { question: 10, text: 'Sélectionnez le mot adéquat pour compléter la phrase suivante: En ______ à sa leçon de danse en taxi, Sophie a perdu son portefeuille.'},
+    { question: 11, text: 'Sélectionnez le mot adéquat pour compléter la phrase suivante: Alain est très occupé ces jours-ci; cela m’étonnerait qu’il ______ demain.'},
+    { question: 12, text: 'Sélectionnez le mot adéquat pour compléter la phrase suivante: Dominique ira chercher Marie à la gare et ______ ramènera à la maison.'},
+    { question: 13, text: 'Sélectionnez le mot adéquat pour compléter la phrase suivante: Tu veux que je ______ plus rapide; mais je ne peux pas aller plus vite!'},
+    { question: 14, text: 'Sélectionnez le mot adéquat pour compléter la phrase suivante: Si mon père était en meilleure santé, il ______ me voir ici aux Etats-Unis.'},
+    { question: 15, text: 'Sélectionnez le mot adéquat pour compléter la phrase suivante: Dimanche dernier nous avons ______ du poisson excellent au marché devant l’église.'},
+    { question: 16, text: 'Sélectionnez le mot adéquat pour compléter la phrase suivante: Mes amis de faculté ______ retrouvent tous les soirs au café pour discuter.'},
+    { question: 17, text: 'Sélectionnez le mot adéquat pour compléter la phrase suivante: Quand j’irai chez les parents de ma fiancée à Pâques, je _____ parlerai de mon intention d’épouser Martine.'},
+    { question: 18, text: 'Sélectionnez le mot adéquat pour compléter la phrase suivante: Nos amies québécoises sont ______ hier directement de Montréal.'},
+    { question: 19, text: 'Sélectionnez le mot adéquat pour compléter la phrase suivante: J’aime beaucoup ______ fleurs.'},
+    { question: 20, text: 'Sélectionnez le mot adéquat pour compléter la phrase suivante: Nous ______ très contents de vous voir.'},
 	]
 
   function gradeTest() {
