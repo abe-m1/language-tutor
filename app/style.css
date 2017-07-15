@@ -1516,3 +1516,12 @@ aside {
 .card {
   margin-bottom: 1em;
 }
+
+.video{
+  padding: -1px; 
+  background: url('images/paris2.png'); 
+  background-repeat: repeat-x;
+  background-attachment: bottom;
+  background-position: bottom;  
+  background-color: #386DAA;
+}
