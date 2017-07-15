@@ -208,6 +208,7 @@ aside {
     border-radius: 3px; 
     display: inline-block;  
     box-sizing: border-box;
+    margin-bottom: 10px;
 }
 
 
@@ -754,6 +755,7 @@ aside {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+   
   }
    .contact-divider {
     display:block; 
